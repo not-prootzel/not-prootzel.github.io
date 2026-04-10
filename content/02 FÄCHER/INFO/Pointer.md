@@ -62,7 +62,7 @@ Segmentation fault (core dumped)
 ## Use after free (`UAF`)
 
 Ein `UAF` ist die Verwendung von Speicher nach einem Free-Befehl. Es stürzt nicht zwingend das Programm ab, kann aber zufällige Werte aus anderem Speicher o.Ä. auslesen.
-```c title="in main:"
+```c title="in main:" {4,10}
 // Allokiere 2 ints, setze den ersten auf 42 und freee sie danach
 int* p = malloc(2*sizeof(int));
 p[0] = 42;
@@ -75,7 +75,7 @@ free(p);
 printf("%d", p[0]);
 ```
 
-```bash title="Output (gcc)"
+```bash title="Output (gcc)" {1}
 6    // zufällige Zahl
 ```
 
