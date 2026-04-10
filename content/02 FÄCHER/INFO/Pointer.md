@@ -29,7 +29,7 @@ printf("%p\n", pointer);
 
 # Verwendung
 ## Zugriff
-```c
+```c title="in main:"
 int var = 42;
 int *pointer = &var;
 
@@ -42,24 +42,27 @@ int var_three = *(pointer + 1);
 int var_three = pointer[1];
 ```
 ## Allokierung
+```c 
+// TODO
+```
 # Fehler
 ## Segmentation Fault (`segfault`)
 
 Ein `segfault` kommt vor, wenn auf eine Speicheradresse zugegriffen wird, die dem Programm *nicht* zugewiesen wurde.
-```c
+```c title="in main:" {3}
 // Allokiere 2 ints
 int* p = malloc(2*sizeof(int));
 printf("%d", p[10000000000000000]);
 ```
-*Output (gcc):*
-```bash
+
+```bash title="Output (gcc)"
 Segmentation fault (core dumped)
 ```
 
 ## Use after free (`UAF`)
 
 Ein `UAF` ist die Verwendung von Speicher nach einem Free-Befehl. Es stürzt nicht zwingend das Programm ab, kann aber zufällige Werte aus anderem Speicher o.Ä. auslesen.
-```c
+```c title="in main:"
 // Allokiere 2 ints, setze den ersten auf 42 und freee sie danach
 int* p = malloc(2*sizeof(int));
 p[0] = 42;
@@ -71,8 +74,8 @@ free(p);
 // Ausgabe
 printf("%d", p[0]);
 ```
-*Output (gcc):*
-```bash
+
+```bash title="Output (gcc)"
 6    // zufällige Zahl
 ```
 
