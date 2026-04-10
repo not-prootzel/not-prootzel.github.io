@@ -3,9 +3,17 @@
 // put your custom CSS here!
 
 :root[saved-theme="light"] {
-  font-family: "Times New Romal", serif !important;
+  font-family: "Times New Roman", serif !important;
+}
+
+body :root[saved-theme="light"] {
+  font-family: "Times New Roman", serif !important;
 }
 
 :root[saved-theme="dark"] {
   font-family: var(--bodyFont) !important;
+}
+
+body :root[saved-theme="light"] {
+  font-family: sans-serif !important;
 }
