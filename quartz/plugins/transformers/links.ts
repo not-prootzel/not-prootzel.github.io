@@ -147,6 +147,31 @@ export const CrawlLinks: QuartzTransformerPlugin<Partial<Options>> = (userOpts) 
                   node.properties.loading = "lazy"
                 }
 
+                if (node.properties &&
+                  node.properties.alt
+                ){
+                  const alt = node.properties.alt as string;
+                    if(alt.includes("|")){
+                      const alt_width = alt.split("|");
+                      if(alt_width.length == 2) {
+                        if(alt_width[1].includes("x")){
+                          const dimensions = alt_width[1].split("x")
+                          node.properties.alt = alt_width[0]
+                          node.properties.width = dimensions[0]
+                          node.properties.height = dimensions[1]
+                        }
+                        else{
+                          node.properties.alt = alt_width[0]
+                          node.properties.width = alt_width[1]
+                        }
+
+                      }
+                    }
+                  }
+                  
+                  else {
+                    node.properties.width = "90%"
+                  }
                 if (!isAbsoluteUrl(node.properties.src, { httpOnly: false })) {
                   let dest = node.properties.src as RelativeURL
                   dest = node.properties.src = transformLink(
