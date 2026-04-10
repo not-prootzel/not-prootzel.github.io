@@ -1,3 +1,11 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+:root[saved-theme="light"] {
+  font-family: "Times New Romal", serif !important;
+}
+
+:root[saved-theme="dark"] {
+  font-family: var(--bodyFont) !important;
+}
