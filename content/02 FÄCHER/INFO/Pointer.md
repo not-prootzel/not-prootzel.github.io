@@ -5,7 +5,7 @@ aliases:
 ---
 Ein Pointer ist ein Datentyp, der direkten Speicherzugriff erlaubt.
 # Syntax
-```c
+```c title="in main:"
 int var = 42;
 int *pointer = &var;
 printf("%d\n", var);
@@ -19,8 +19,8 @@ printf("%p\n", pointer);
 | 0x02    | 42             |
 | 0x08    | 0x02 (Adresse) |
 
-*Output (falls Speicher wie oben):*
-```bash
+
+```txt title="Output (falls Speicher wie oben):"
 42
 0x02
 ```
@@ -55,7 +55,7 @@ int* p = malloc(2*sizeof(int));
 printf("%d", p[10000000000000000]);
 ```
 
-```bash title="Output (gcc)"
+```txt title="Output (gcc)"
 Segmentation fault (core dumped)
 ```
 
