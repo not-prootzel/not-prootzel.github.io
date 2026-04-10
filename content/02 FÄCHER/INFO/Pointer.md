@@ -5,7 +5,7 @@ aliases:
 ---
 Ein Pointer ist ein Datentyp, der direkten Speicherzugriff erlaubt.
 # Syntax
-```C
+```c
 int var = 42;
 int *pointer = &var;
 printf("%d\n", var);
@@ -29,7 +29,7 @@ printf("%p\n", pointer);
 
 # Verwendung
 ## Zugriff
-```C
+```c
 int var = 42;
 int *pointer = &var;
 
@@ -46,20 +46,20 @@ int var_three = pointer[1];
 ## Segmentation Fault (`segfault`)
 
 Ein `segfault` kommt vor, wenn auf eine Speicheradresse zugegriffen wird, die dem Programm *nicht* zugewiesen wurde.
-```C
+```c
 // Allokiere 2 ints
 int* p = malloc(2*sizeof(int));
 printf("%d", p[10000000000000000]);
 ```
 *Output (gcc):*
-```
+```bash
 Segmentation fault (core dumped)
 ```
 
 ## Use after free (`UAF`)
 
 Ein `UAF` ist die Verwendung von Speicher nach einem Free-Befehl. Es stürzt nicht zwingend das Programm ab, kann aber zufällige Werte aus anderem Speicher o.Ä. auslesen.
-```C
+```c
 // Allokiere 2 ints, setze den ersten auf 42 und freee sie danach
 int* p = malloc(2*sizeof(int));
 p[0] = 42;
@@ -72,7 +72,7 @@ free(p);
 printf("%d", p[0]);
 ```
 *Output (gcc):*
-```C
+```bash
 6    // zufällige Zahl
 ```
 
