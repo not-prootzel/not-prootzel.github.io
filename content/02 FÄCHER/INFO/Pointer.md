@@ -18,6 +18,7 @@ printf("%p\n", pointer);
 | ------- | -------------- |
 | 0x02    | 42             |
 | 0x08    | 0x02 (Adresse) |
+
 *Output (falls Speicher wie oben):*
 ```bash
 42
