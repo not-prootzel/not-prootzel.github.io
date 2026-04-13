@@ -29,7 +29,10 @@ $$\lim (\log_{a} f(x))=\log_{a}(\lim f(x))$$
 
 
 # Stetigkeit
-
+Eine Funktion $f(x)$ ist stetig an der Stelle $x_{0}$, wenn:
+1. $f(x_{0})$ definiert ist
+2. $L=\lim_{ x \to x_{0} }f(x)$ definiert ist
+3. $f(x_{0})=L$
 
 # LaTeX
 ## Grenzwert
