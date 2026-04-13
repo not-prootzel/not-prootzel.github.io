@@ -60,6 +60,28 @@ Eine Funktion $f(x)$ ist stetig an der Stelle $x_{0}$, wenn:
 2. $L=\lim_{ x \to x_{0} }f(x)$ definiert ist
 3. $f(x_{0})=L$
 
+# Differenzierbarkeit
+
+Eine Funktion $f(x)$ ist differenzierbar an der Stelle $x_{0}$, wenn:
+
+$$
+	L=\lim_{ \Delta x \to 0 } \frac{{f(x_{0}+\Delta x)-f(x_{0})}}{\Delta x}
+$$
+
+existiert. $L$ ist dann die erste Ableitung von $f(x)$ an der Stelle $x_{0}$.
+
+$$
+	L=y'(x_{0})=f'(x_{0})=\frac{dy}{dx}\bigg|_{x=x_{0}}^{}
+$$
+
+# Differentialquotienten
+
+Die hier berechneten Differentialquotienten sind in der [[Ableitungs- und Integrationstabelle]] zu finden. Der Differentialquotient ist in dem Sinne gleich einer Ableitung.
+
+# Quellen
+
+[Vorlesungsblatt 1](https://elearning.dhbw-ravensburg.de/pluginfile.php/443802/mod_folder/content/0/Ma2_01.pdf)
+
 # LaTeX
 
 ## Grenzwert
@@ -90,4 +112,11 @@ L=\lim_{ x \to x_{0} } f(x)
 \lim \sqrt[n]{ f(x) }=\sqrt{ \lim  f(x) }
 \lim (a^{f(x)})=a^{\lim f(x)}
 \lim (\log_{a} f(x))=\log_{a}(\lim f(x))
+```
+
+## [[#Differenzierbarkeit]]
+
+```tex title="Differenzierbarkeit"
+L=\lim_{ \Delta x \to 0 } \frac{{f(x_{0}+\Delta x)-f(x_{0})}}{\Delta x}
+L=y'(x_{0})=f'(x_{0})=\frac{dy}{dx}\bigg|_{x=x_{0}}
 ```
