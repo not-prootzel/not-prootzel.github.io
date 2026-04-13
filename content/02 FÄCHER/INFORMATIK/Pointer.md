@@ -33,6 +33,10 @@ printf("%p\n", pointer);
 
 ## Warum?
 
+### Dynamische Allokierung
+
+In C können Datentypen nicht dynamisch ihre Größe verändern. Das heißt, structs und ints (*auch Pointer*) etc. haben immer eine feste, beim Compilen zugewiesene Größe. Das bedeutet, ein Array von Länge 5 kann man nicht auf Länge 6 erweitern. Die Lösung hierbei ist die [[#Allokierung]] von Speicher. Es erlaubt die direkte Manipulation von Heap-Speicher, aber man kann sich da einfach ins Knie schießen. Oft vorkommende Fehler sind [[#Fehler|unten aufgelistet]].
+
 ### "returns"
 
 Eine Funktion kann mehrere Werte zurückgeben, indem man die Argumente als Pointer übergibt (`pass-by-reference`):
@@ -96,6 +100,8 @@ sys     0m0,005s
 
 ```c title="in main:"
 int var = 42;
+
+// int ist hier wichtig; es bestimmt, wie weit bei Zugriffen in Bytes gesprungen wird!
 int *pointer = &var;
 
 // Beide Zeilen machen exakt das gleiche
@@ -110,10 +116,42 @@ int var_three = pointer[1];
 ## Allokierung
 
 ```c 
-// TODO
+// die Anzahl an ints, die man speichern will
+int length = 5;
+
+// reserviert Speicherplatz für 5 (length) Integers
+int *p = malloc(sizeof(int) * length);
+
+// befreit den Speicher wieder
+free(p);
 ```
 
+> [!NOTE] `free` nur nach `malloc` oder `calloc`!
+> Wenn ein Pointer auf ein statisches (nicht dynamisches) Objekt erstellt wird, kümmert sich C selbst um den Speicher!
+> ```c title="falsches free" {3}
+> int x = 42;
+> int *p = &x;
+
+// Fehler hier!
+
+> free(p);
+> ```
+
 # Fehler
+
+## Memory Leaks
+
+Ein Memory Leak entsteht, wenn `free` nicht auf reservierten Speicher aufgerufen wird.
+
+```c
+int *p = malloc(sizeof(int) * 5);
+
+// …
+
+// kein free
+```
+
+Der Speicher bleibt auch nach Ende des Programms reserviert. Daten liegen so offen im Speicher und können nicht befreit werden, was eventuell den gesamten Speicher über genügend Zeit auffüllen kann und das System so zum Absturz bringt.
 
 ## Segmentation Fault (`segfault`)
 
