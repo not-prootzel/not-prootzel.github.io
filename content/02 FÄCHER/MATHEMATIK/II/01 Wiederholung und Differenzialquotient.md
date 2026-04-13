@@ -7,7 +7,8 @@ aliases:
 $$|f(x)-L|<\epsilon \text{ falls } |x-x_{0}|<\delta$$
 $$L=\lim_{ x \to x_{0} } f(x)$$
 ![[Pasted image 20260413085249.png]]
-## Rechenregeln des Grenzwertes
+## Rechenregeln des Grenzwertes 
+
 
 > [!NOTE] $\lim$ ist kein vollständiger Ausdruck für den Grenzwert, es müsste eigentlich $\lim_{ x \to x_{0} }$ sein, wurde aber für Lesbarkeit/Druckbarkeit weggelassen
 
