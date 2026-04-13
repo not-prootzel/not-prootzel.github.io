@@ -1,6 +1,15 @@
 @use "./base.scss";
 
 // put your custom CSS here!
-.data-highlighted-line {
+.data-rehype-pretty-code-figure {
     background: #e0af6815 !important;
+}
+
+h1[id]>a[href^=\#],
+h2[id]>a[href^=\#],
+h3[id]>a[href^=\#],
+h4[id]>a[href^=\#],
+h5[id]>a[href^=\#],
+h6[id]>a[href^=\#] {
+    opacity: 1;
 }

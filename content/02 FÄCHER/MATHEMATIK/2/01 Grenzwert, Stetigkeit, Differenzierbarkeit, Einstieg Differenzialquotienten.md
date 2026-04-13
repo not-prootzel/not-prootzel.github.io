@@ -20,6 +20,7 @@ $$\lim \sqrt[n]{ f(x) }=\sqrt{ \lim  f(x) }$$
 $$\lim (a^{f(x)})=a^{\lim f(x)}$$
 $$\lim (\log_{a} f(x))=\log_{a}(\lim f(x))$$
 
+# Stetigkeit
 
 
 # LaTeX
