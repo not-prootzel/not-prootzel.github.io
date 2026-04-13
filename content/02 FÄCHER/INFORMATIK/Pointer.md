@@ -31,6 +31,67 @@ printf("%p\n", pointer);
 
 # Verwendung
 
+## Warum?
+
+### "returns"
+
+Eine Funktion kann mehrere Werte zurückgeben, indem man die Argumente als Pointer übergibt (`pass-by-reference`):
+
+```c
+// return: der Statuscode der Operation
+// a wird modifiziert und durch das Ergebnis ersetzt
+int divide{int *a, int *b} {
+	if(*b == 0) {
+		// divided by zero
+		return 1;
+	}
+
+	*a = *a / *b;
+	return 0;
+}
+```
+
+### Speicheroptimierung
+
+TLDR: Bei großen `structs` `pointer` bevorzugen. Nerdige aber unnötige Erklärung folgt ([[#Zugriff|SKIP]]).
+
+Ein Pointer auf ein Element ist immer gleich groß (standardmäßig 32 oder 64 Bits). Da `struct`'s kopiert werden, kann ein `pointer` effizienter sein.
+
+```c
+typedef struct MyGiantStruct {
+	long long int l1;
+	long long int l2;
+	long long int l3;
+	// …
+	long long int l10000;
+};
+
+// langsam
+void my_func_no_p(MyGiantStruct s) {
+	// …
+}
+
+// schnell
+void my_func_p(MyGiantStruct *s) {
+	// …
+}
+```
+
+Je nach Programm und `struct`-Typ als auch CPU-Architektur kann die Performance hier unterschiedlich sein. Generell ist es ab einem `struct`'s mit zwei `int`'s/`float`'s oder einem `long int` oder `double` ein Mehrwert.
+
+Als Benchmark habe ich [[pointer_no_pointer.c]] verwendet.
+
+```bash title="Output"
+> time pass_by_val.out
+real    0m0,165s
+user    0m0,159s
+sys     0m0,006s
+> time pass_by_ref.out
+real    0m0,143s
+user    0m0,138s
+sys     0m0,005s
+```
+
 ## Zugriff
 
 ```c title="in main:"

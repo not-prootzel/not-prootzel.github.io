@@ -4,6 +4,6 @@ publish: true
 
 ab
 
-[[INFO]]
+[[INFORMATIK]]
 
 [[Pointer]]
