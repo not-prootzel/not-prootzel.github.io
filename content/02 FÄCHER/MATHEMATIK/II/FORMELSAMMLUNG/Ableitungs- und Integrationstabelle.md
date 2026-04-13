@@ -2,6 +2,7 @@
 publish: true
 tags: []
 aliases: []
+add: true
 ---
 $$\frac{d}{dx}=f'(x)$$
 $$\int f(x) \space dx=F(x);\int^a_{b}f(x)\space dx=F(a)-F(b)$$
@@ -31,7 +32,7 @@ $$\int f(x) \space dx=F(x);\int^a_{b}f(x)\space dx=F(a)-F(b)$$
 | $$-\sin x$$            | $$\cos x$$ | $$\sin x$$  |
 | $$\frac{1}{\cos^2 x}$$ | $$\tan x$$ |             |
 | $$-\frac{1}{\cos^2x}$$ | $$\cot x$$ |             |
-# Exponentialfunktionen und Logarithmus
+## Exponentialfunktionen und Logarithmus
 
 | $$f'(x)$$            | $$f(x)$$       | $$F(x)$$    |
 | -------------------- | -------------- | ----------- |
