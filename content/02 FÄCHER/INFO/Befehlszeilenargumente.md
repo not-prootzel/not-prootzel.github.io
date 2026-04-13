@@ -20,6 +20,26 @@ ls --help                             # zeigt eine Hilfenachricht zu dir
 
 # Verwendung
 
+Man kann optional der `main`-Methode Befehlszeilenargumente hinzufügen.
+
+```c
+int main(int argc, char *argv[]);
+```
+
+Dabei ist `argc` die Anzahl der Befehlszeilenargumente, während `argv` die Befehlszeilenargumente selbst als String sind.
+
+Man kann dementsprechend auf einzelne Argumente so zugreifen:
+
+```c title="in main"
+char arg1[] = argv[1];
+```
+
+> [!NOTE] `argv[0]` ist der Name der ausführbaren Datei selbst (z.B. `a.out`.
+
+# Beispiele
+
+## Display aller Argumente
+
 ```c title="main.c"
 int main(int argc, char *argv[]) {
 	printf("ARGC: %d\n", argc);
@@ -38,8 +58,6 @@ ARGC: 4
 2: the
 3: arguments
 ```
-
-# Beispiele
 
 ## Help-Message
 
@@ -91,4 +109,5 @@ OPTIONS:
 ```
 
 # Quellen
+
 [Vorlesungsfolien, Seite 246-252](https://elearning.dhbw-ravensburg.de/pluginfile.php/426404/mod_resource/content/2/Informatik_1%2B2_C_2026-01-09.pdf#page=243)
