@@ -1,5 +1,5 @@
 ---
 publish: true
-tags:
-aliases:
+tags: []
+aliases: []
 ---

@@ -1,8 +1,5 @@
 ---
 publish: true
 ---
+
 [[HOME]]
-
-
-
-
