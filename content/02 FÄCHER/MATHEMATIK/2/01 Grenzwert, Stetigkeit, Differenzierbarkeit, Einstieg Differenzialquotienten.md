@@ -12,13 +12,21 @@ $$L=\lim_{ x \to x_{0} } f(x)$$
 > [!NOTE] $\lim$ ist kein vollständiger Ausdruck für den Grenzwert, es müsste eigentlich $\lim_{ x \to x_{0} }$ sein, wurde aber für Lesbarkeit/Druckbarkeit weggelassen
 
 $$\lim (f(x)\pm g(x))=\lim f(x) \pm \lim g(x)$$
+
 $$\lim (f(x)*g(x))=(\lim f(x))*(\lim g(x))$$
+
 $$\lim (c*f(x))=c*\lim f(x) \text{; nur falls } c \text{ konstant}$$
+
 $$\lim \frac{f(x)}{g(x)}=\frac{{\lim f(x)}}{\lim g(x)}$$
+
 $$\lim (f(x))^n=(\lim f(x))^n$$
+
 $$\lim \sqrt[n]{ f(x) }=\sqrt{ \lim  f(x) }$$
+
 $$\lim (a^{f(x)})=a^{\lim f(x)}$$
+
 $$\lim (\log_{a} f(x))=\log_{a}(\lim f(x))$$
+
 
 # Stetigkeit
 
