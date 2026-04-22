@@ -1,9 +1,3 @@
 ---
-publish: true
+publish: false
 ---
-
-ab
-
-[[INFORMATIK]]
-
-[[Pointer]]

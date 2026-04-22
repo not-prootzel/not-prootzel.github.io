@@ -2,4 +2,4 @@
 publish: true
 ---
 
-[[HOME]]
+![[HOME]]

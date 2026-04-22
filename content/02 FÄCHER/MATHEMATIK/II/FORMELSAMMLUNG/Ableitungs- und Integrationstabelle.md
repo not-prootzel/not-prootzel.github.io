@@ -15,6 +15,7 @@ $$\int f(x) \space dx=F(x);\int^a_{b}f(x)\space dx=F(a)-F(b)$$
 | Kettenregel     | $$f'(g'(x))$$           | $$f'(g(x))*g'(x)$$                           |
 
 # Ableitungstabelle
+## Grundlegend
 
 | $$f'(x)$$                   | $$f(x)$$       | $$F(x)$$                   |
 | --------------------------- | -------------- | -------------------------- |
@@ -39,3 +40,18 @@ $$\int f(x) \space dx=F(x);\int^a_{b}f(x)\space dx=F(a)-F(b)$$
 | $$n*e^x$$            | $$n*e^x$$      | $$n*e^x+C$$ |
 | $$n*f'(x)*e^{f(x)}$$ | $$n*e^{f(x)}$$ |             |
 | $$n*\frac{1}{x}$$    | $$n*\ln(x)$$   |             |
+## Umkehrfunktion
+
+| $f'(x)$ | $f(x)$   | $F(x)$ |
+| ------- | -------- | ------ |
+| $g'(x)$ | $g(x)$   | $G(x)$ |
+|         | $h(x)=1$ |        |
+## Kurven in Parameterform
+
+Gegeben ist eine Funktion $x=x(p);y=y(p)$ bzw.
+$$\begin{rcases}
+x=x(p) \\
+y=y(p)
+\end{rcases} 
+\space p_{1}\leq p\leq p_{2}$$
+Die Steigung einer Tagente an der Stelle $p$ dieser Funktion lautet dann $$f'(p)=\frac{y'(p)}{x'(p)}=\frac{dy}{dx}$$
