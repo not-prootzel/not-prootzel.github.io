@@ -15,10 +15,6 @@ h6[id]>a[href^=\#] {
     opacity: 1;
 }
 
-.mord {
-    font-family: 'Fira Code';
-}
-
-* {
-    font-family: 'Fira Code';
+p, a, table, .mord text {
+    font-family: 'Fira Code' !important;
 }

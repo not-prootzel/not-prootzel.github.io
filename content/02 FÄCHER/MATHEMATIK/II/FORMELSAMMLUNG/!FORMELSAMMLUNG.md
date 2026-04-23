@@ -1,8 +1,9 @@
 ---
 publish: true
-tags:
-aliases:
+tags: []
+aliases: []
 ---
+
 ```dataviewjs
 const folder = dv.current().file.folder;
 const pages = dv.pages('"' + folder + '"').sort(p => p.file.name);
@@ -22,4 +23,3 @@ for (const page of pages) {
     
 }
 ```
-
