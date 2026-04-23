@@ -18,3 +18,8 @@ h6[id]>a[href^=\#] {
 p, a, table, .mord text {
     font-family: 'Fira Code' !important;
 }
+
+table:has(tbody>tr>td>.katex),
+table:has(thead>tr>td>.katex) {
+    width:90% !important;
+}
