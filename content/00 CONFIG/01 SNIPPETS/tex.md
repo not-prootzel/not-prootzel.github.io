@@ -1,3 +1,0 @@
-```latex title="%%cursor%%"
-
-```

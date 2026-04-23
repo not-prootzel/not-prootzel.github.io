@@ -1,5 +1,0 @@
----
-publish: false
-tags:
-aliases:
----
