@@ -4,18 +4,18 @@ tags: []
 aliases: []
 add: true
 ---
-
+!TODO: überarbeiten
 $$\frac{d}{dx}=f'(x)$$
 
 $$\int f(x) \space dx=F(x);\int^a_{b}f(x)\space dx=F(a)-F(b)$$
 
 # Rechenregeln
 
-| Name            | Eingang                 | Ausgang                                      |
-| --------------- | ----------------------- | -------------------------------------------- |
-| Produktregel    | $$f'(x)*g'(x)$$         | $$f'(x)*g(x)+f(x)*g'(x)$$                    |
-| Quotientenregel | $$\frac{f'(x)}{g'(x)}$$ | $$\frac{{f'(x)*g(x)-f(x)*g'(x)}}{[g(x)]^2}$$ |
-| Kettenregel     | $$f'(g'(x))$$           | $$f'(g(x))*g'(x)$$                           |
+| Name            | Eingang                 | Ausgang                                                |
+| --------------- | ----------------------- | ------------------------------------------------------ |
+| Produktregel    | $$f'(x)\cdot g'(x)$$    | $$f'(x)\cdot g(x)+f(x)\cdot g'(x)$$                    |
+| Quotientenregel | $$\frac{f'(x)}{g'(x)}$$ | $$\frac{{f'(x)\cdot g(x)-f(x)\cdot g'(x)}}{[g(x)]^2}$$ |
+| Kettenregel     | $$f'(g'(x))$$           | $$f'(g(x))*g'(x)$$                                     |
 
 # Ableitungstabelle
 
@@ -41,11 +41,11 @@ $$\int f(x) \space dx=F(x);\int^a_{b}f(x)\space dx=F(a)-F(b)$$
 
 ## Exponentialfunktionen und Logarithmus
 
-| $$f'(x)$$            | $$f(x)$$       | $$F(x)$$    |
-| -------------------- | -------------- | ----------- |
-| $$n*e^x$$            | $$n*e^x$$      | $$n*e^x+C$$ |
-| $$n*f'(x)*e^{f(x)}$$ | $$n*e^{f(x)}$$ |             |
-| $$n*\frac{1}{x}$$    | $$n*\ln(x)$$   |             |
+| $$f'(x)$$                      | $$f(x)$$            | $$F(x)$$         |
+| ------------------------------ | ------------------- | ---------------- |
+| $$n\cdot e^x$$                 | $$n\cdot e^x$$      | $$n\cdot e^x+C$$ |
+| $$n\cdot f'(x)\cdot e^{f(x)}$$ | $$n\cdot e^{f(x)}$$ |                  |
+| $$n\cdot\frac{1}{x}$$          | $$n\cdot\ln(x)$$    |                  |
 
 ## Umkehrfunktion
 

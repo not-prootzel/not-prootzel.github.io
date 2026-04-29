@@ -1,6 +1,6 @@
 ---
 publish: true
-tags: []
+tags: [analysis, ableitung, differential]
 aliases: []
 ---
 
@@ -25,11 +25,11 @@ $$
 $$
 
 $$
-\lim (f(x)*g(x))=(\lim f(x))*(\lim g(x))
+\lim (f(x)\cdot g(x))=(\lim f(x))\cdot (\lim g(x))
 $$
 
 $$
-\lim (c*f(x))=c*\lim f(x) \text{; nur falls } c \text{ konstant}
+\lim (c\cdot f(x))=c\cdot \lim f(x) \text{; nur falls } c \text{ konstant}
 $$
 
 $$
@@ -80,7 +80,7 @@ Die hier berechneten Differentialquotienten sind in der [[Ableitungs- und Integr
 
 # Quellen
 
-[Vorlesungsblatt 1](https://elearning.dhbw-ravensburg.de/pluginfile.php/443802/mod_folder/content/0/Ma2_01.pdf)
+[Vorlesungsblatt 1 (A. Wipfler, 2026)](https://elearning.dhbw-ravensburg.de/pluginfile.php/443802/mod_folder/content/0/Ma2_01.pdf)
 
 # LaTeX
 
@@ -105,8 +105,8 @@ L=\lim_{ x \to x_{0} } f(x)
 
 ```tex title="Rechenregeln des Grenzwertes"
 \lim (f(x)\pm g(x))=\lim f(x) \pm \lim g(x)
-\lim (f(x)*g(x))=(\lim f(x))*(\lim g(x))
-\lim (c*f(x))=c*\lim f(x) \text{; nur falls } c \text{ konstant}
+\lim (f(x)\cdot g(x))=(\lim f(x))\cdot (\lim g(x))
+\lim (c\cdot f(x))=c\cdot \lim f(x) \text{; nur falls } c \text{ konstant}
 \lim \frac{f(x)}{g(x)}=\frac{{\lim f(x)}}{\lim g(x)}
 \lim (f(x))^n=(\lim f(x))^n
 \lim \sqrt[n]{ f(x) }=\sqrt{ \lim  f(x) }

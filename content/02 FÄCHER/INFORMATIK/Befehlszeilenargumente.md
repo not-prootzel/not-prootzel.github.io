@@ -117,4 +117,4 @@ OPTIONS:
 
 # Quellen
 
-[Vorlesungsfolien, Seite 246-252](https://elearning.dhbw-ravensburg.de/pluginfile.php/426404/mod_resource/content/2/Informatik_1%2B2_C_2026-01-09.pdf#page=243)
+[Vorlesungsvorlage, Seite 246-252, Befehlszeilenargumente (A. Grüning, 2026)](https://elearning.dhbw-ravensburg.de/pluginfile.php/426404/mod_resource/content/2/Informatik_1%2B2_C_2026-01-09.pdf#page=243)

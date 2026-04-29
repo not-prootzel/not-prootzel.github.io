@@ -1,6 +1,6 @@
 ---
 publish: true
-tags: []
+tags: [algebra, geometrie]
 aliases: []
 ---
 
@@ -29,7 +29,7 @@ Dabei ist $p$ der Parameter (typischerweise $\forall p \in[-\infty;\infty]$)
 Die Ableitung findet man [[Ableitungs- und Integrationstabelle#Parametrische Funktionen|hier]].
 # Quellen
 
-[Vorlesungsblatt 4](https://elearning.dhbw-ravensburg.de/pluginfile.php/443802/mod_folder/content/0/Ma2_04.pdf)
+[Vorlesungsblatt 4 (A. Wipfler, 2026)](https://elearning.dhbw-ravensburg.de/pluginfile.php/443802/mod_folder/content/0/Ma2_04.pdf)
 
 # LaTeX
 ## Kurven in Parameterform

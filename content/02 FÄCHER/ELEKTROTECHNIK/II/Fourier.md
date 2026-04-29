@@ -16,4 +16,4 @@ $$S(x)=\sum_{n=1}^k a_{n}\cdot \sin(\phi_{n}+\omega_{n}\cdot x)$$
 
 [Foliensatz 1]()
 
-[But what is the Fourier Transform? A visual introduction (Grant Sanderson/3blue1brown)](https://www.youtube.com/watch?v=spUNpyF58BY)
+[But what is the Fourier Transform? A visual introduction (G. Sanderson a.k.a. 3blue1brown, 2018)](https://www.youtube.com/watch?v=spUNpyF58BY)

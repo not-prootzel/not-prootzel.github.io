@@ -1,6 +1,6 @@
 ---
 publish: true
-tags: []
+tags: [analysis, ableitung]
 aliases: []
 ---
 
@@ -32,11 +32,11 @@ Das heißt, man leitet den Nenner und Zähler so lange ab, bis ein berechenbarer
 
 Mithilfe ein paar Umformungen lassen sich weitere Fälle ausrechnen:
 
-| Fall                                                            | Formel                                                                                                                               |
-| --------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| $$u(x)\cdot v(x)=0\cdot \infty$$                                | $$\large \lim_{ x \to x_{0} } u(x)\cdot v(x)=\lim_{ x \to x_{0} } \frac{u(x)}{\frac{1}{v(x)}}$$                                      |
-| $$u(x)\cdot v(x)=\infty-\infty $$                               | $$\large \lim_{ x \to x_{0} } u(x)\cdot v(x)=\lim_{ x \to x_{0} } \frac{{\frac{1}{v(x)}-\frac{1}{u(x)}}}{\frac{1}{u(x)\cdot v(x)}}$$ |
-| $$u(x)^{v(x)}=0^0\text{ oder }\infty^0 \text{ oder } 1^\infty$$ | $$\large \lim_{ x \to x_{0} } u(x)^{v(x)}=e^{\lim_{ x \to x_{0} } \frac{\ln u(x)}{\frac{1}{v(x)}}}$$                                 |
+| Fall                                                            | Formel                                                                                                                           |
+| --------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| $$u(x)\cdot v(x)=0\cdot \infty$$                                | $$\large \lim_{ x \to x_{0} } u(x)\cdot v(x)=\lim_{ x \to x_{0} } \frac{u(x)}{\frac{1}{v(x)}}$                                   |
+| $$u(x)-v(x)=\infty-\infty$$                                     | $$\large \lim_{ x \to x_{0} } u(x)- v(x)=\lim_{ x \to x_{0} } \frac{{\frac{1}{v(x)}-\frac{1}{u(x)}}}{\frac{1}{u(x)\cdot v(x)}}$$ |
+| $$u(x)^{v(x)}=0^0\text{ oder }\infty^0 \text{ oder } 1^\infty$$ | $$\large \lim_{ x \to x_{0} } u(x)^{v(x)}=e^{\lim_{ x \to x_{0} } \frac{\ln u(x)}{\frac{1}{v(x)}}}$$                             |
 
 # Newtonsches Verfahren
 
@@ -45,14 +45,16 @@ Das newtonsche Verfahren ist ein iteratives Verfahren zum ungefähren Bestimmen 
 1. Bestimmung eines Startwerts $x_{0}$
 2. Iteriere die folgende Formel, bis das Ergebnis sich innerhalb der geforderten Genauigkeit **nicht mehr ändert**
    $$
+
    	x_{n+1}=x_{n}-\frac{f(x_{n})}{f'(x_{n})}
-   $$
+
+$$
 
 # Quellen
 
-[Vorlesungsblatt 6](https://elearning.dhbw-ravensburg.de/pluginfile.php/443802/mod_folder/content/0/Ma2_06.pdf?forcedownload=1)
+[Vorlesungsblatt 6 (A. Wipfler, 2026)](https://elearning.dhbw-ravensburg.de/pluginfile.php/443802/mod_folder/content/0/Ma2_06.pdf)
 
-[Studyflix - Regel von l'Hospital](https://studyflix.de/mathematik/lhospital-1869)
+[Regel von l'Hospital (Studyflix, 2026)](https://studyflix.de/mathematik/lhospital-186)
 
 # Latex
 
