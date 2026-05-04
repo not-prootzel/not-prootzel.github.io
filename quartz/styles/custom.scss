@@ -19,6 +19,10 @@ p, a, table, li, strong :not(.katex-display) {
     font-family: 'Fira Code' !important;
 }
 
+* {
+    margin-bottom: 1em !important;
+}
+
 
 table:has(tbody>tr>td>.katex),
 table:has(thead>tr>td>.katex) {
