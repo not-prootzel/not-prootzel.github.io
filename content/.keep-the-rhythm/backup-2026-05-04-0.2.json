@@ -459,6 +459,16 @@
             "timeKey": "09:30",
             "w": 52,
             "c": 605
+          },
+          {
+            "timeKey": "09:40",
+            "w": 0,
+            "c": 0
+          },
+          {
+            "timeKey": "09:45",
+            "w": 0,
+            "c": 48
           }
         ],
         "id": 17
@@ -498,11 +508,17 @@
         "filePath": "02 FÄCHER/MATHEMATIK/II/04 Kurven in Parameterform, Polarkoordinaten, Tangenten und Normalen.md",
         "wordCountStart": 116,
         "charCountStart": 770,
-        "changes": [],
+        "changes": [
+          {
+            "timeKey": "09:35",
+            "w": 0,
+            "c": 0
+          }
+        ],
         "id": 21
       }
     ],
     "wholeVaultWordCount": 7132,
-    "wholeVaultCharCount": 53460
+    "wholeVaultCharCount": 53508
   }
 }
