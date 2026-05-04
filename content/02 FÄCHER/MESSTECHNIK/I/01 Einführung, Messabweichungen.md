@@ -109,3 +109,7 @@ $$
 $$
 
 Bei der Berechnung/Messung weiterer Größen kann man $\Delta x$ durch ein totales Differenzial ersetzen.
+
+# Quellen
+
+- [MT Vorlesungsblatt 1 (A. Wipfler, 2025)](https://elearning.dhbw-ravensburg.de/pluginfile.php/443414/mod_resource/content/0/MT1_01.pdf)

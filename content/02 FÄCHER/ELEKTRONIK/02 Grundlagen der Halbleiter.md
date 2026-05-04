@@ -94,7 +94,7 @@ Wenn ein Elektron ein Loch wieder besetzt, nennt man das eine **Rekombination**.
 
 ## Nomenklatur
 
-Halbleiter, die eine p- oder n-Dotierung durchliefen, werden p-dotierte oder n-dotierte Halbleiter (kurz: n-Halbleiter und p-Halbleiter) genannt.
+Halbleiter, die eine poder n-Dotierung durchliefen, werden p-dotierte oder n-dotierte Halbleiter (kurz: n-Halbleiter und p-Halbleiter) genannt.
 
 # 2.5 Der p-n-Übergang
 

@@ -12,7 +12,7 @@ Ein zeitveränderliches Signal ist eine Größe, dessen Augenblickswert sich üb
 
 ## Periodische Signale
 
-Ein periodisches Signal sind Signale, deren Graphen sich nach einer Periodendaür $T$ wiederholen. Verläufe dürfen dabei auf der y-Achse verschoben werden.
+Ein periodisches Signal sind Signale, deren Graphen sich nach einer Periodendaür $T$ wiederholen. Verläufe dürfen auf der y-Achse verschoben werden.
 
 ## Wechselgrößen
 

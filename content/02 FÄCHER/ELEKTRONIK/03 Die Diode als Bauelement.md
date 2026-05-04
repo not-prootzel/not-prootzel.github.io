@@ -8,7 +8,7 @@ aliases: []
 
 Eine Diode lässt nur den Stromfluss in eine Richtung zu.
 
-![[02 FÄCHER/ELEKTRONIK/03 MEDIA/attachments/03 Die Diode als Bauelement/file-20260429115758132.png]]
+![[02 FÄCHER/ELEKTRONIK/attachments/03 Die Diode als Bauelement/file-20260429115758132.png]]
 
 Die Anode ist der Anschluss am p-Halbleiter, die Kathode der Anschluss am n-Halbleiter.
 
@@ -16,8 +16,10 @@ Ströme und Spannungen werden meist in Durchlassrichtung definiert. In der Liter
 
 - $U_{F}$ für Spannung in Durchlassrichtung (forward)
 - $U_{R}$ für Spannung gegen die Durchlassrichtung (reverse)
+
 Die elektrischen Eigenschaften werden größtenteils vom p-n-Übergang beeinflusst. Die Kennlinie einer Diode ist nicht linear.
-![[02 FÄCHER/ELEKTRONIK/03 MEDIA/attachments/03 Die Diode als Bauelement/file-20260429120454388.png]]
+
+![[02 FÄCHER/ELEKTRONIK/attachments/03 Die Diode als Bauelement/file-20260429120454388.png]]
 
 > [!WARNING] Der I. (Durchlassbereich) und III. (Sperrbereich)-Quadrant haben unterschiedliche Maßstäbe!
 
@@ -45,9 +47,7 @@ $$
 	U_{T}(T=300K)=26mV
 $$
 
-Für die Modellierung realer Dioden wird der Emissionskoeffizient $m\approx 1,2$
-
-definiert. Diese ist diodenabhängig, aber als gute Abschätzung von $m\cdot U_{T}$ (falls nichts gegeben ist) kann man verwenden:
+Für die Modellierung realer Dioden wird der Emissionskoeffizient $m\approx 1,2$ definiert. Diese ist diodenabhängig, aber als gute Abschätzung von $m\cdot U_{T}$ (falls nichts gegeben ist) kann man verwenden:
 
 $$
 	m\cdot U_{T}(T=300K)=30mV
@@ -74,12 +74,12 @@ Schon bei kleinen Sperrspannungen (100mV) gilt $I_{F}\approx -I_{S}$. Allerdings
 
 Allerdings fließen **Oberflächenleckströme**, die proportional zur Querschnittsfläche des p-n-Übergangs sind.
 
-![[02 FÄCHER/ELEKTRONIK/03 MEDIA/attachments/03 Die Diode als Bauelement/file-20260429122504095.png]]
+![[02 FÄCHER/ELEKTRONIK/attachments/03 Die Diode als Bauelement/file-20260429122504095.png]]
 
-Daher verwendet man hier den im Datenblatt angegebenen Sperrstrom $I_{R}$ (reverse current). $I_{R}$ liegt in der Größenordnung von $1nA$ für Siliziumdioden ($1\mu A$ für Germaniumdioden). Solange die Sperrspannung nicht in der Näche der **Durchbruchspannung $U_{BR}$** ist, kann man $I_{R}$ annähern durch
+Daher verwendet man hier den im Datenblatt angegebenen Sperrstrom $I_{R}$ (reverse current). $I_{R}$ liegt in der Größenordnung von $1nA$ für Siliziumdioden ($1\mu A$ für Germaniumdioden). Solange die Sperrspannung nicht in der Nähe der **Durchbruchspannung $U_{BR}$** ist, kann man $I_{R}$ annähern durch
 
 $$
-	I_{R}~\sqrt{ U_{R} }
+	I_{R}\sim\sqrt{ U_{R} }
 $$
 
 In der Nähe der Durchbruchspannung (breakdown voltage) folgt der Stromverlauf einer exponentialen Funktion.
@@ -88,7 +88,7 @@ In der Nähe der Durchbruchspannung (breakdown voltage) folgt der Stromverlauf e
 
 Wenn man den Strom des Koordinatensystems logarithmisch aufzeichnet, erhält man näherungsweise eine Gerade für $I_{F}$.
 
-![[02 FÄCHER/ELEKTRONIK/03 MEDIA/attachments/03 Die Diode als Bauelement/file-20260429123158047.png]]
+![[02 FÄCHER/ELEKTRONIK/attachments/03 Die Diode als Bauelement/file-20260429123158047.png]]
 
 Bei mittleren Spannungen lässt sich also sagen:
 

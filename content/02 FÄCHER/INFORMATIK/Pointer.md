@@ -131,9 +131,7 @@ free(p);
 > ```c title="falsches free" {3}
 > int x = 42;
 > int *p = &x;
-
 // Fehler hier!
-
 > free(p);
 > ```
 
