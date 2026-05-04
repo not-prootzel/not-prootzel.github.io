@@ -15,11 +15,11 @@ h6[id]>a[href^=\#] {
     opacity: 1;
 }
 
-p, a, table, li, strong :not(.katex-display) {
+p, a, table, li, strong :not(.MathJax) {
     font-family: 'Fira Code' !important;
 }
 
-* {
+:not(.MathJax){
     margin-bottom: 1em !important;
 }
 
