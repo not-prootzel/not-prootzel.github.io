@@ -329,9 +329,31 @@
           }
         ],
         "id": 12
+      },
+      {
+        "date": "2026-05-04",
+        "filePath": "02 FÄCHER/MESSTECHNIK/I/02 Unbekannte Messabweichungen.md",
+        "wordCountStart": 263,
+        "charCountStart": 2069,
+        "changes": [
+          {
+            "timeKey": "08:00",
+            "w": 0,
+            "c": -1
+          }
+        ],
+        "id": 13
+      },
+      {
+        "date": "2026-05-04",
+        "filePath": "02 FÄCHER/MESSTECHNIK/I/01 Einführung, Messabweichungen.md",
+        "wordCountStart": 580,
+        "charCountStart": 6381,
+        "changes": [],
+        "id": 14
       }
     ],
     "wholeVaultWordCount": 6439,
-    "wholeVaultCharCount": 48567
+    "wholeVaultCharCount": 48566
   }
 }
