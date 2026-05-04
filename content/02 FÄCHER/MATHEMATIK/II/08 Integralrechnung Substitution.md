@@ -28,6 +28,30 @@ Die Substitution erlaubt die Anwendung der umgekehrten Kettenregel in manchen In
 
 # Trigonometrische und hyperbolische Substitution
 
+!TODO
+
+---
+
 # Quellen
 
 - [Vorlesungsblatt 8 (A. Wipfler, 2026)](https://elearning.dhbw-ravensburg.de/pluginfile.php/443802/mod_folder/content/0/Ma2_08.pdf)
+
+---
+
+# LaTeX Summary
+
+## [[#Umkehrung der Kettenregel]]
+
+```latex
+\frac{d}{dx}f(g(x))=f'(g(x))\cdot g'(x)
+
+\implies \int f'(g(x))\cdot g'(x)dx=f(g(x))+C
+
+```
+
+## [[#Substitution]]
+
+```latex
+du=\frac{du}{dx}\cdot dx
+
+```

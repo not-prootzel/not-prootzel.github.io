@@ -118,6 +118,8 @@ Wenn eine **negative** Spannung am p-Halbleiter angelegt wird, wird die RLZ brei
 
 Im Gegensatz zu idealen Dioden haben reale Dioden innere Bahnwiderstände $R_{Bp}, R_{Bn}$ in jeweils dem p-Halbleiter und n-Halbleiter. Die Summe dieser ist der Bahnwiderstand $R_{B}$. Der Bahnwiderstand bestimmt bei großen Widerständen die Steigung der Diodenkennlinie.
 
+---
+
 # Quellen
 
 - [Skript Elektronik 1 6-16](https://elearning.dhbw-ravensburg.de/pluginfile.php/441396/mod_resource/content/1/Skript_EK1.pdf#page=6)
@@ -139,3 +141,21 @@ Folgende Quellen hat es verwendet:
 - [Skript Elektronik 1](https://elearning.dhbw-ravensburg.de/pluginfile.php/441396/mod_resource/content/1/Skript_EK1.pdf)
 
 Alle Texte wurden von Menschen verfasst.
+
+---
+
+# LaTeX Summary
+
+## [[#Valenzband, Leitungsband, verbotenes Band|Valenzband, Leitungsband, verbotenes Band]]
+
+```latex
+W_{G}=W_{L}-W_{V}
+
+```
+
+## [[#Temperaturabhängigkeit|Temperaturabhängigkeit]]
+
+```latex
+T \uparrow \implies (n, p) \uparrow \implies \text{Leitfähigkeit} \uparrow
+
+```

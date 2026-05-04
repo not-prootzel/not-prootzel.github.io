@@ -1,77 +1,78 @@
 <%*
-// 1. Access the Markdown view directly from the app workspace
 const activeView = app.workspace.getActiveViewOfType(tp.obsidian.MarkdownView);
-
 if (!activeView) {
-    new Notice("No active Markdown file found. Click inside your note first.");
+    new Notice("No active note found.");
     return;
 }
 
 const editor = activeView.editor;
-const fileContent = editor.getValue();
-const lines = fileContent.split('\n');
+const lines = editor.getValue().split('\n');
 
-// 2. Parsing Variables
 let currentHeading = "Top of Document";
-let mathBlocks = [];
+let currentListHeading = ""; 
+let mathBlocks = {}; 
 let isInsideMathBlock = false;
 let currentBlockBuffer = [];
+let totalCount = 0;
 
-// 3. The Logic Loop
 for (let i = 0; i < lines.length; i++) {
     const rawLine = lines[i];
-    const trimmedLine = rawLine.trim();
+    const trimmed = rawLine.trim();
 
-    // Track Headings (to link back later)
-    if (trimmedLine.startsWith('#')) {
-        currentHeading = trimmedLine.replace(/^#+\s+/, '');
+    // 1. Update Current Markdown Heading (#)
+    if (trimmed.startsWith('#')) {
+        currentHeading = trimmed.replace(/^#+\s+/, '');
+        currentListHeading = ""; // Reset list heading when a new real heading starts
     }
-	if(currentHeading == "LaTeX") {
-		continue;
-	};
-    // Detect Math Blocks ($$)
-    if (trimmedLine.startsWith('$$')) {
-        if (!isInsideMathBlock) {
-            isInsideMathBlock = true;
-            currentBlockBuffer = [];
-        } else {
-            isInsideMathBlock = false;
-            mathBlocks.push({
-                heading: currentHeading,
-                latex: currentBlockBuffer.join('\n')
-            });
-        }
-    } else if (isInsideMathBlock) {
-        currentBlockBuffer.push(rawLine);
+
+    // 2. Detect Bold List Items (e.g., "1. **Heading**")
+    // This regex looks for a digit, a dot, space, and then bold text
+    const boldListMatch = trimmed.match(/^\d+\.\s+\*\*(.*?)\*\*/);
+    if (boldListMatch) {
+        currentListHeading = boldListMatch[1];
+    }
+
+    // 3. Detect Math Blocks
+    if (trimmed.startsWith('$$')) { 
+        if (!isInsideMathBlock) { 
+            isInsideMathBlock = true; 
+            currentBlockBuffer = []; 
+        } else { 
+            isInsideMathBlock = false; 
+            
+            // Create a composite label: "Heading > Bold Item"
+            const displayLabel = currentListHeading 
+                ? `${currentHeading} ➔ ${currentListHeading}` 
+                : currentHeading;
+
+            if (!mathBlocks[displayLabel]) mathBlocks[displayLabel] = [];
+            mathBlocks[displayLabel].push(currentBlockBuffer.join('\n').trim());
+            totalCount++;
+        } 
+    } else if (isInsideMathBlock) { 
+        currentBlockBuffer.push(rawLine); 
     }
 }
 
-// 4. Final Output Generation
-if (mathBlocks.length > 0) {
-    let summary = "\n\n---\n# LaTeX\n";
-    
-    // Group by heading to avoid duplicates
-    const grouped = mathBlocks.reduce((acc, item) => {
-        if (!acc[item.heading]) acc[item.heading] = [];
-        acc[item.heading].push(item.latex);
-        return acc;
-    }, {});
+// 4. Output Generation
+if (totalCount > 0) {
+    let summary = "\n\n---\n# LaTeX Summary\n";
 
-    for (const [head, blocks] of Object.entries(grouped)) {
-        // Create a link back to the header
-        summary += `\n## [[#${head}]]\n`;
-        summary += "```latex";
+    for (const [label, blocks] of Object.entries(mathBlocks)) {
+        // Link to the main heading, but show the Bold List Item text in the label
+        const linkTarget = label.split(' ➔ ')[0];
+        summary += `\n## [[#${linkTarget}|${label}]]\n`;
+        summary += "```latex\n";
         blocks.forEach(code => {
-            summary += "\n" + code.trim() + "\n";
+            summary += code + "\n\n";
         });
         summary += "```\n";
     }
 
-    // 5. Append to the end of the file
     const lineCount = editor.lineCount();
     editor.replaceRange(summary, { line: lineCount, ch: 0 });
-    new Notice(`Success: Extracted ${mathBlocks.length} blocks.`);
+    new Notice(`Extracted ${totalCount} blocks.`);
 } else {
-    new Notice("No $$ math blocks found in this note.");
+    new Notice("No LaTeX found.");
 }
 %>

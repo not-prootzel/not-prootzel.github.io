@@ -22,24 +22,35 @@ $$
 \begin{rcases}
 x=x(p) \\
 y=y(p)
-\end{rcases} \space t_{1}\leq t\leq t_{2}$$
+\end{rcases} \space t_{1}\leq t\leq t_{2}
+$$
 
 Dabei ist $p$ der Parameter (typischerweise $\forall p \in[-\infty;\infty]$)
+
 ## Ableitung von Kurven in Parameterform
+
 Die Ableitung findet man [[Ableitungs- und Integrationstabelle#Parametrische Funktionen|hier]].
+
+---
+
 # Quellen
 
 [Vorlesungsblatt 4 (A. Wipfler, 2026)](https://elearning.dhbw-ravensburg.de/pluginfile.php/443802/mod_folder/content/0/Ma2_04.pdf)
 
-# LaTeX
-## Kurven in Parameterform
+---
+
+# LaTeX Summary
+
+## [[#Kurven in Parameterform]]
+
 ```latex
+x=x(p)
+
+y=y(p)
+
 \begin{rcases}
 x=x(p) \\
 y=y(p)
-\end{rcases} 
-\space t_{1}\leq t\leq t_{2}
-```
-```latex
-\forall p \in [-\infty;\infty]
+\end{rcases} \space t_{1}\leq t\leq t_{2}
+
 ```

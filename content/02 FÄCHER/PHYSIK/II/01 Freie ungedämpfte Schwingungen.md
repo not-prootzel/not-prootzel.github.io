@@ -117,6 +117,10 @@ $U_{0}$: Spannung an der Quelle
 
 ---
 
+# Quellen
+
+[PH 2 Vorlesung 1 (A. Wipfler, 2026)](https://elearning.dhbw-ravensburg.de/pluginfile.php/443795/mod_resource/content/0/Ph_2_01.pdf)
+
 # KI-Nutzung
 
 Google's [NotebookLM](https://notebooklm.google) hat mit dem Finden der Überschriften geholfen. Außerdem war es vor allem eine Hilfe bei den folgenden Überschriften:
@@ -129,23 +133,11 @@ Folgende Quellen hat es verwendet:
 
 Alle Texte wurden von Menschen verfasst.
 
-# Quellen
-
-[PH 2 Vorlesung 1 (A. Wipfler, 2026)](https://elearning.dhbw-ravensburg.de/pluginfile.php/443795/mod_resource/content/0/Ph_2_01.pdf)
-
 ---
 
-# LaTeX
+# LaTeX Summary
 
-$$
-	a=\dot{v}=\ddot{x}
-$$
-
-```latex title="Ableitungen"
-a=\dot{v}=\ddot{x}
-```
-
-## [[#Harmonische Schwingungen und ihre Differenzialgleichung (DGL)]]
+## [[#Harmonische Schwingungen und ihre Differenzialgleichung (DGL)|Harmonische Schwingungen und ihre Differenzialgleichung (DGL)]]
 
 ```latex
 m \ddot{x}+kx=0
@@ -155,9 +147,10 @@ m \ddot{x}+kx=0
 w_{0}=\sqrt{ \frac{k}{m} }
 
 \omega_{0}=2\pi f_{0}=\frac{2\pi}{T_{0}}
+
 ```
 
-## [[#Differenzialgleichung]]
+## [[#Differenzialgleichung|Differenzialgleichung]]
 
 ```latex
 \dot{x}\implies\text{1. Ordnung}
@@ -169,27 +162,31 @@ w_{0}=\sqrt{ \frac{k}{m} }
 x(t)=a \cos(\omega_{0}t)+b \sin(\omega_{0})=ce^{j\omega_{0}t}+de^{-j\omega_{0}t}
 
 a=x(0);b=\frac{\dot{x}(0)}{\omega_{0}}
+
 ```
 
-## [[#Energie]]
+## [[#Energie|Energie]]
 
 ```latex
 E=\frac{1}{2}m\dot{x}^2+\frac{1}{2}kx^2
+
 ```
 
-## [[#Mathematisches Pendel]]
+## [[#Mathematisches Pendel|Mathematisches Pendel]]
 
 ```latex
 T=2\pi \sqrt{ \frac{l}{g} };\space\space\phi(t)=a\cos \sqrt{ \frac{g}{l} }t+b\cos \sqrt{ \frac{g}{l} }t
+
 ```
 
-## [[#Torsionspendel]]
+## [[#Torsionspendel|Torsionspendel]]
 
 ```latex
 T=2\pi \sqrt{ \frac{I}{k_{t}} };\space\space\phi(t)=a \cos \sqrt{ \frac{k_{i}}{I} }t+b\cos \sqrt{ \frac{k_{t}}{I} }t
+
 ```
 
-## [[#Physikalisches Pendel]]
+## [[#Physikalisches Pendel|Physikalisches Pendel]]
 
 ```latex
 l_{red}=\frac{I}{ml}
@@ -197,10 +194,12 @@ l_{red}=\frac{I}{ml}
 T=2\pi \sqrt{ \frac{I}{mgl} }=2\pi \sqrt{ \frac{l_{red}}{g} }
 
 \phi(t)=a\cos \sqrt{ \frac{mgl}{I} }t + b\cos \sqrt{ \frac{mgl}{I} }t=a\cos \sqrt{ \frac{l_{red}}{g} }t+b\cos \sqrt{ \frac{l_{red}}{g} }t
+
 ```
 
-## [[#Elektrischer Schwingkreis]]
+## [[#Elektrischer Schwingkreis|Elektrischer Schwingkreis]]
 
 ```latex
 T=2\pi \sqrt{ LC };\space\space U_{C}(t)=U_{0}\cdot \cos\left( \frac{t}{LC} \right) \text{ wenn }U_{C}(0)=U_{0} \text{ (Kondensator ungeladen)}
+
 ```

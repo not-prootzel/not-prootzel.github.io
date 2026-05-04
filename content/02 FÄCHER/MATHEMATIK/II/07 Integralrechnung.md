@@ -89,6 +89,84 @@ $$
 	\int_{a}^bu'(x)\cdot v(x)dx=u(x)\cdot v(x)\bigg|_{a}^{b}-\int_{a}^bu(x)\cdot v'(x)dx
 $$
 
+---
+
 # Quellen
 
 - [Vorlesungsblatt 7 (A. Wipfler, 2026)](https://elearning.dhbw-ravensburg.de/pluginfile.php/443802/mod_folder/content/0/Ma2_07.pdf)
+
+---
+
+# LaTeX Summary
+
+## [[#Definition]]
+
+```latex
+\int^b_{a}f(x)dx=\lim_{ n \to \infty } \sum^{n-1}_{k=0}f(x_{k})\Delta x \text{ mit } \Delta x=\frac{{b-a}}{n} \text{ und } x_{k}=a+k\Delta x
+
+I(x)=\int^x_{a} f(t) dt
+
+```
+
+## [[#Zusammenhang mit Stammfuntionen]]
+
+```latex
+Es gilt allgemein:
+
+```
+
+## [[#Berechnung von Integralen]]
+
+```latex
+## Berechnung von Integralen
+
+```
+
+## [[#Linearität]]
+
+```latex
+# Eigenschaften von Integralen
+
+## Linearität
+
+```
+
+## [[#Intervallregel]]
+
+```latex
+Linearität gilt auch für unbestimmte Integrale.
+
+## Intervallregel
+
+```
+
+## [[#Intervallgrenzen]]
+
+```latex
+## Intervallgrenzen
+
+
+
+```
+
+## [[#Mittelwertsatz der Integralrechnung]]
+
+```latex
+## Mittelwertsatz der Integralrechnung
+
+$f(x)$ sei stetig in $]a;b[$ => es gibt mindestens eine Stelle $E$, an der sich die vom Integral gemachte gezeichnete Rechtecksfläche und die Funktion $f(x)$ sich schneiden.
+
+```
+
+## [[#Produktintegration/Partielle Integration]]
+
+```latex
+![[02 FÄCHER/MATHEMATIK/II/attachments/07 Integralrechnung/file-20260429113321200.png]]
+
+# Produktintegration/Partielle Integration
+
+Die partielle Integration ist eine Methode, um ein Integral aus dem Produkt von zwei Funktionen zu berechnen.
+
+Bei bestimmten Integralen gilt
+
+```

@@ -474,6 +474,11 @@
             "timeKey": "10:10",
             "w": 0,
             "c": 0
+          },
+          {
+            "timeKey": "11:00",
+            "w": 0,
+            "c": 0
           }
         ],
         "id": 17
@@ -521,9 +526,144 @@
           }
         ],
         "id": 21
+      },
+      {
+        "date": "2026-05-04",
+        "filePath": "02 FÄCHER/INFORMATIK/INFORMATIK.md",
+        "wordCountStart": 4,
+        "charCountStart": 38,
+        "changes": [],
+        "id": 22
+      },
+      {
+        "date": "2026-05-04",
+        "filePath": "02 FÄCHER/PHYSIK/II/01 Freie ungedämpfte Schwingungen.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "11:00",
+            "w": 56,
+            "c": 443
+          },
+          {
+            "timeKey": "11:05",
+            "w": 58,
+            "c": 385
+          },
+          {
+            "timeKey": "11:10",
+            "w": 26,
+            "c": 166
+          },
+          {
+            "timeKey": "11:15",
+            "w": 28,
+            "c": 205
+          },
+          {
+            "timeKey": "11:20",
+            "w": 46,
+            "c": 248
+          },
+          {
+            "timeKey": "11:25",
+            "w": 39,
+            "c": 260
+          },
+          {
+            "timeKey": "11:30",
+            "w": 35,
+            "c": 223
+          },
+          {
+            "timeKey": "11:35",
+            "w": 51,
+            "c": 298
+          },
+          {
+            "timeKey": "11:40",
+            "w": 51,
+            "c": 341
+          },
+          {
+            "timeKey": "11:45",
+            "w": 63,
+            "c": 400
+          },
+          {
+            "timeKey": "11:50",
+            "w": 180,
+            "c": 1193
+          },
+          {
+            "timeKey": "12:05",
+            "w": -74,
+            "c": -433
+          },
+          {
+            "timeKey": "12:10",
+            "w": 0,
+            "c": 0
+          },
+          {
+            "timeKey": "12:15",
+            "w": 263,
+            "c": 1421
+          }
+        ],
+        "id": 23
+      },
+      {
+        "date": "2026-05-04",
+        "filePath": "00 CONFIG/00 TEMPLATES/ZOTERO_CITATION.md",
+        "wordCountStart": 1,
+        "charCountStart": 11,
+        "changes": [],
+        "id": 25
+      },
+      {
+        "date": "2026-05-04",
+        "filePath": "00 CONFIG/00 TEMPLATES/T_COURSE.md",
+        "wordCountStart": 4,
+        "charCountStart": 38,
+        "changes": [],
+        "id": 26
+      },
+      {
+        "date": "2026-05-04",
+        "filePath": "index.md",
+        "wordCountStart": 3,
+        "charCountStart": 33,
+        "changes": [],
+        "id": 27
+      },
+      {
+        "date": "2026-05-04",
+        "filePath": "02 FÄCHER/PHYSIK/II/02 Gedämpfte Schwingungen, erzwungene Schwingungen.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "12:15",
+            "w": 16,
+            "c": 136
+          },
+          {
+            "timeKey": "12:20",
+            "w": 47,
+            "c": 345
+          },
+          {
+            "timeKey": "12:25",
+            "w": 0,
+            "c": -1
+          }
+        ],
+        "id": 28
       }
     ],
-    "wholeVaultWordCount": 7132,
-    "wholeVaultCharCount": 53508
+    "wholeVaultWordCount": 8253,
+    "wholeVaultCharCount": 61386
   }
 }
