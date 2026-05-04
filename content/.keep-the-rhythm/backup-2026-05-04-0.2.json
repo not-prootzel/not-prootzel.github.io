@@ -74,7 +74,8 @@
     "highestStreakStartDate": "",
     "highestStreakEndDate": "",
     "daysWithCompletedGoal": [
-      "2026-04-29"
+      "2026-04-29",
+      "2026-05-04"
     ],
     "dailyActivity": [
       {
@@ -340,6 +341,11 @@
             "timeKey": "08:00",
             "w": 0,
             "c": -1
+          },
+          {
+            "timeKey": "08:05",
+            "w": 0,
+            "c": 0
           }
         ],
         "id": 13
@@ -351,9 +357,114 @@
         "charCountStart": 6381,
         "changes": [],
         "id": 14
+      },
+      {
+        "date": "2026-05-04",
+        "filePath": "02 FÄCHER/MATHEMATIK/MATHEMATIK.md",
+        "wordCountStart": 6,
+        "charCountStart": 44,
+        "changes": [],
+        "id": 15
+      },
+      {
+        "date": "2026-05-04",
+        "filePath": "02 FÄCHER/MATHEMATIK/II/01 Differenzialquotient.md",
+        "wordCountStart": 466,
+        "charCountStart": 2623,
+        "changes": [],
+        "id": 16
+      },
+      {
+        "date": "2026-05-04",
+        "filePath": "02 FÄCHER/MATHEMATIK/II/09 Integration mithilfe der Partialbruchzerlegung.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "08:05",
+            "w": 52,
+            "c": 333
+          },
+          {
+            "timeKey": "08:10",
+            "w": 97,
+            "c": 791
+          },
+          {
+            "timeKey": "08:15",
+            "w": 59,
+            "c": 393
+          },
+          {
+            "timeKey": "08:20",
+            "w": 43,
+            "c": 218
+          },
+          {
+            "timeKey": "08:25",
+            "w": 45,
+            "c": 241
+          },
+          {
+            "timeKey": "08:30",
+            "w": 7,
+            "c": 53
+          },
+          {
+            "timeKey": "08:35",
+            "w": 33,
+            "c": 258
+          },
+          {
+            "timeKey": "08:40",
+            "w": 8,
+            "c": 44
+          },
+          {
+            "timeKey": "08:45",
+            "w": 46,
+            "c": 330
+          },
+          {
+            "timeKey": "08:50",
+            "w": 80,
+            "c": 656
+          },
+          {
+            "timeKey": "08:55",
+            "w": 51,
+            "c": 286
+          },
+          {
+            "timeKey": "09:00",
+            "w": 33,
+            "c": 196
+          },
+          {
+            "timeKey": "09:15",
+            "w": 16,
+            "c": 98
+          },
+          {
+            "timeKey": "09:20",
+            "w": 71,
+            "c": 389
+          },
+          {
+            "timeKey": "09:25",
+            "w": 0,
+            "c": 3
+          },
+          {
+            "timeKey": "09:30",
+            "w": 52,
+            "c": 605
+          }
+        ],
+        "id": 17
       }
     ],
-    "wholeVaultWordCount": 6439,
-    "wholeVaultCharCount": 48566
+    "wholeVaultWordCount": 7132,
+    "wholeVaultCharCount": 53460
   }
 }
