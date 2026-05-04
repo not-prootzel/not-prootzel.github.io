@@ -15,7 +15,7 @@ h6[id]>a[href^=\#] {
     opacity: 1;
 }
 
-p, a, table, li, strong :not(.MathJax) {
+p, a, table, li, strong {
     font-family: 'Fira Code' !important;
 }
 
@@ -29,6 +29,7 @@ p, h1, h2, h3, h4, h5, h6, li, strong, table {
 }
 
 h1, h2, h3, h4, h5, h6, li :has(>strong) {
+    font-family: 'Fira Code' !important;
     margin-top: 1em !important;
 }
 
@@ -36,4 +37,8 @@ h1, h2, h3, h4, h5, h6, li :has(>strong) {
 table:has(tbody>tr>td>.katex),
 table:has(thead>tr>td>.katex) {
     width:90% !important;
+}
+
+.center {
+    user-select: all !important;
 }
