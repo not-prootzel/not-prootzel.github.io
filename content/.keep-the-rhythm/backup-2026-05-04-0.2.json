@@ -468,8 +468,38 @@
         "filePath": "02 FÄCHER/MATHEMATIK/II/08 Integralrechnung Substitution.md",
         "wordCountStart": 114,
         "charCountStart": 764,
-        "changes": [],
+        "changes": [
+          {
+            "timeKey": "09:35",
+            "w": 0,
+            "c": 0
+          }
+        ],
         "id": 18
+      },
+      {
+        "date": "2026-05-04",
+        "filePath": "02 FÄCHER/MATHEMATIK/II/06 Linearisierung von Funktionen, Regel von L’Hospital.md",
+        "wordCountStart": 563,
+        "charCountStart": 3600,
+        "changes": [],
+        "id": 19
+      },
+      {
+        "date": "2026-05-04",
+        "filePath": "02 FÄCHER/MATHEMATIK/II/05 Höhere Ableitungen, Extrema und Sattelpunkte, Optimierung.md",
+        "wordCountStart": 210,
+        "charCountStart": 1434,
+        "changes": [],
+        "id": 20
+      },
+      {
+        "date": "2026-05-04",
+        "filePath": "02 FÄCHER/MATHEMATIK/II/04 Kurven in Parameterform, Polarkoordinaten, Tangenten und Normalen.md",
+        "wordCountStart": 116,
+        "charCountStart": 770,
+        "changes": [],
+        "id": 21
       }
     ],
     "wholeVaultWordCount": 7132,
