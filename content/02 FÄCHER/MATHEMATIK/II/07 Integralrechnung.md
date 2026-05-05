@@ -1,6 +1,6 @@
 ---
 publish: true
-tags: [analysis, differential, integral]
+tags: [analysis, differenzial, integral]
 aliases: []
 ---
 
@@ -22,7 +22,7 @@ Es beschreibt die Fläche unter der Funktion im Bereich $[a,x]$.
 
 # Hauptsatz der Differenzial- und Integralrechnung
 
-## Zusammenhang mit Stammfuntionen
+## Zusammenhang mit Stammfunktionen
 
 Jedes unbestimmte Integral einer Funktion $f(x)$ ist deren Stammfunktion:
 
@@ -99,74 +99,56 @@ $$
 
 # LaTeX Summary
 
-## [[#Definition]]
+## [[#Definition|Definition]]
 
 ```latex
 \int^b_{a}f(x)dx=\lim_{ n \to \infty } \sum^{n-1}_{k=0}f(x_{k})\Delta x \text{ mit } \Delta x=\frac{{b-a}}{n} \text{ und } x_{k}=a+k\Delta x
 
 I(x)=\int^x_{a} f(t) dt
-
 ```
 
-## [[#Zusammenhang mit Stammfuntionen]]
+## [[#Zusammenhang mit Stammfunktionen|Zusammenhang mit Stammfunktionen]]
 
 ```latex
-Es gilt allgemein:
-
+I(x)=\int_{a}^xf(t)dt=\int f(x)dx=F(x)+c;\space c=\text{konst.}
 ```
 
-## [[#Berechnung von Integralen]]
+## [[#Berechnung von Integralen|Berechnung von Integralen]]
 
 ```latex
-## Berechnung von Integralen
-
+\int_{a}^b f(x)dx=F(b)-F(a)
 ```
 
-## [[#Linearität]]
+## [[#Linearität|Linearität]]
 
 ```latex
-# Eigenschaften von Integralen
-
-## Linearität
-
+\int_{a}^b (m\cdot f(x)+n\cdot g(x))dx=m \int_{a}^b f(x)dx+n\int_{a}^b g(x)dx
 ```
 
-## [[#Intervallregel]]
+## [[#Intervallregel|Intervallregel]]
 
 ```latex
-Linearität gilt auch für unbestimmte Integrale.
-
-## Intervallregel
-
+\int_{a}^c f(x)dx=\int_{a}^b f(x)dx + \int_{b}^c f(x)dx
 ```
 
-## [[#Intervallgrenzen]]
+## [[#Intervallgrenzen|Intervallgrenzen]]
 
 ```latex
-## Intervallgrenzen
+\int_{a}^af(x)dx=0
 
-
-
+\int_{a}^b f(x)dx=-\int_{b}^a f(x)dx
 ```
 
-## [[#Mittelwertsatz der Integralrechnung]]
+## [[#Mittelwertsatz der Integralrechnung|Mittelwertsatz der Integralrechnung]]
 
 ```latex
-## Mittelwertsatz der Integralrechnung
-
-$f(x)$ sei stetig in $]a;b[$ => es gibt mindestens eine Stelle $E$, an der sich die vom Integral gemachte gezeichnete Rechtecksfläche und die Funktion $f(x)$ sich schneiden.
-
+\int_{a}^b f(x)dx=(b-a)\cdot f(E);\space E \in[a;b]
 ```
 
-## [[#Produktintegration/Partielle Integration]]
+## [[#Produktintegration/Partielle Integration|Produktintegration/Partielle Integration]]
 
 ```latex
-![[02 FÄCHER/MATHEMATIK/II/attachments/07 Integralrechnung/file-20260429113321200.png]]
+\int u'(x)\cdot v(x)dx=u(x)\cdot v(x)-\int u(x)\cdot v'(x)dx+C
 
-# Produktintegration/Partielle Integration
-
-Die partielle Integration ist eine Methode, um ein Integral aus dem Produkt von zwei Funktionen zu berechnen.
-
-Bei bestimmten Integralen gilt
-
+\int_{a}^bu'(x)\cdot v(x)dx=u(x)\cdot v(x)\bigg|_{a}^{b}-\int_{a}^bu(x)\cdot v'(x)dx
 ```

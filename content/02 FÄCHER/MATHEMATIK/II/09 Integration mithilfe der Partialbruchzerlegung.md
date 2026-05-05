@@ -1,6 +1,6 @@
 ---
 publish: true
-tags: []
+tags: [analysis, integral]
 aliases: []
 ---
 
@@ -170,7 +170,6 @@ Die vollständige Beispielberechnung findet man auf [Lernhelfer](https://www.ler
 
 ```latex
 f(x)=\frac{Z(x)}{N(x)}
-
 ```
 
 ## [[#Partialbruchzerlegung|Partialbruchzerlegung]]
@@ -179,14 +178,12 @@ f(x)=\frac{Z(x)}{N(x)}
 \int f(x)dx=\int \frac{Z(x)}{N(x)}dx
 
 \int f(x) = \int \frac{{x^3-5x^2+x+4}}{x^2-7x+10}
-
 ```
 
 ## [[#Partialbruchzerlegung|Partialbruchzerlegung ➔ Umwandeln in eine echt gebrochenrationale Funktion]]
 
 ```latex
 \int f(x)dx=\int x+2+\frac{{5x-16}}{x^2-7x+10}dx
-
 ```
 
 ## [[#Partialbruchzerlegung|Partialbruchzerlegung ➔ Herausfinden der Nullstellen des Nenners]]
@@ -195,7 +192,6 @@ f(x)=\frac{Z(x)}{N(x)}
 -\frac{p}{2}\pm \sqrt{ \frac{p^2}{4}-q }=-\frac{-7}{2}\pm \sqrt{ \frac{(-7)^2}{4}-10 }=\frac{7}{2}\pm \sqrt{ \frac{9}{4} }=\frac{7}{2}\pm \frac{3}{2}
 
 \implies x_{1}=2;x_{2}=5
-
 ```
 
 ## [[#Partialbruchzerlegung|Partialbruchzerlegung ➔ Bestimmung der Koeffizienten $A_{i}$]]
@@ -204,7 +200,6 @@ f(x)=\frac{Z(x)}{N(x)}
 f_{echt}(x)=\frac{A_{0}}{x-x_{0}}+\frac{A_{1}}{x-x_{1}}+\dots+\frac{A_{k}}{x-x_{k}}=\sum_{i=1}^k \frac{A_{i}}{x-x_{i}}
 
 \frac{5x-16}{x^2-7x-10}=\frac{A}{x-2}+\frac{B}{x-5}
-
 ```
 
 ## [[#Partialbruchzerlegung|Partialbruchzerlegung ➔ Koeffizientenvergleich]]
@@ -219,7 +214,6 @@ f_{echt}(x)=\frac{A_{0}}{x-x_{0}}+\frac{A_{1}}{x-x_{1}}+\dots+\frac{A_{k}}{x-x_{
 \implies \textcolor{cyan}{-16}=\textcolor{cyan}{-5A-2B}\implies 5A+2B=16
 
 A=2;B=3
-
 ```
 
 ## [[#Partialbruchzerlegung|Partialbruchzerlegung ➔ Umformulieren des Integrals]]
@@ -228,21 +222,18 @@ A=2;B=3
 \int x+2+\frac{{5x-16}}{x^2-7x+10}dx=\int x+2+ \frac{2}{x-2}+\frac{3}{x-5}dx
 
 \int (x+2)dx+\int \frac{2}{x-2}dx+\int \frac{3}{x-5}dx
-
 ```
 
 ## [[#Partialbruchzerlegung|Partialbruchzerlegung ➔ Einfache Nullstellen]]
 
 ```latex
 \int \frac{A\cdot dx}{x-x_{0}}=A\cdot \ln|x-x_{0}|+c
-
 ```
 
 ## [[#Partialbruchzerlegung|Partialbruchzerlegung ➔ Mehrfache Nullstellen]]
 
 ```latex
 \int \frac{A\cdot dx}{(x-x_{0})^n}=\frac{A}{(1-n)(x-x_{0})^{n-1}}+c
-
 ```
 
 ## [[#Partialbruchzerlegung|Partialbruchzerlegung ➔ Terme der Form $x^2+1$]]
@@ -257,5 +248,4 @@ A=2;B=3
 \int (x+2)dx+\int \frac{2}{x-2}dx+\int\frac{3}{x-5}dx=
 
 =- \frac{2}{x+1}+2\ln |x-2|+3\ln|x-5|+C
-
 ```

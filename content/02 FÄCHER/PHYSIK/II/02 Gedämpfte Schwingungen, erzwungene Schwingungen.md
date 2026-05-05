@@ -1,6 +1,6 @@
 ---
 publish: true
-tags: []
+tags: [integral, schwingung, mechanik]
 aliases: []
 ---
 

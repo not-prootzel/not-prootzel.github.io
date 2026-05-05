@@ -1,6 +1,6 @@
 ---
 publish: true
-tags: []
+tags: [messabweichung]
 aliases: []
 ---
 
@@ -110,6 +110,45 @@ $$
 
 Bei der Berechnung/Messung weiterer Größen kann man $\Delta x$ durch ein totales Differenzial ersetzen.
 
+---
+
 # Quellen
 
 - [MT Vorlesungsblatt 1 (A. Wipfler, 2025)](https://elearning.dhbw-ravensburg.de/pluginfile.php/443414/mod_resource/content/0/MT1_01.pdf)
+
+---
+
+# LaTeX Summary
+
+## [[#Größen und Einheiten|Größen und Einheiten]]
+
+```latex
+U=\{U\} |U|=5V
+
+```
+
+## [[#Partielle Ableitung und totales Differenzial|Partielle Ableitung und totales Differenzial]]
+
+```latex
+Hyperfeinübergang in Caesium-133 
+v_{0}=9192631770 s^{-1}
+
+Vakuumlichtgeschwindigkeit 
+c_{0}=299792458 \frac{m}{s}
+           
+Plaank'sches Wirkungsquantum 
+h=6, 62607015\cdot 10^{-34}Js$<br>$1J=1 \frac{{kg\cdot m^2}}{s^2}
+
+Elementarladung 
+e=1, 602176634\cdot 10^{-19}As
+
+Boltzmann-Konstante 
+k_{B}=1, 380649 \cdot 10^{-23} \frac{J}{K}
+
+Avogadro-Konstante 
+N_{A}=6,02214076 \cdot 10^{23}\text{mol}^{-1}
+
+photometrische Strahlungsäquivalent für Strahlung mit einer Frequenz von 540...
+540 \cdot 10^{12}Hz K_{cd}=683
+\frac{lm}{W}=683 \frac{{s^3 \cdot sr \cdot cd}}{kg \cdot m^2}
+```

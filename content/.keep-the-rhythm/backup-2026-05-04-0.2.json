@@ -371,7 +371,13 @@
         "filePath": "02 FÄCHER/MATHEMATIK/II/01 Differenzialquotient.md",
         "wordCountStart": 466,
         "charCountStart": 2623,
-        "changes": [],
+        "changes": [
+          {
+            "timeKey": "12:25",
+            "w": 0,
+            "c": 10
+          }
+        ],
         "id": 16
       },
       {
@@ -479,6 +485,16 @@
             "timeKey": "11:00",
             "w": 0,
             "c": 0
+          },
+          {
+            "timeKey": "12:40",
+            "w": 324,
+            "c": 1543
+          },
+          {
+            "timeKey": "12:45",
+            "w": 72,
+            "c": 835
           }
         ],
         "id": 17
@@ -493,6 +509,11 @@
             "timeKey": "09:35",
             "w": 0,
             "c": 0
+          },
+          {
+            "timeKey": "12:40",
+            "w": 44,
+            "c": 233
           }
         ],
         "id": 18
@@ -510,7 +531,13 @@
         "filePath": "02 FÄCHER/MATHEMATIK/II/05 Höhere Ableitungen, Extrema und Sattelpunkte, Optimierung.md",
         "wordCountStart": 210,
         "charCountStart": 1434,
-        "changes": [],
+        "changes": [
+          {
+            "timeKey": "12:40",
+            "w": 51,
+            "c": 277
+          }
+        ],
         "id": 20
       },
       {
@@ -523,6 +550,26 @@
             "timeKey": "09:35",
             "w": 0,
             "c": 0
+          },
+          {
+            "timeKey": "12:25",
+            "w": -18,
+            "c": -89
+          },
+          {
+            "timeKey": "12:30",
+            "w": -13,
+            "c": -69
+          },
+          {
+            "timeKey": "12:35",
+            "w": 0,
+            "c": 1
+          },
+          {
+            "timeKey": "12:40",
+            "w": 32,
+            "c": 158
           }
         ],
         "id": 21
@@ -610,6 +657,11 @@
             "timeKey": "12:15",
             "w": 263,
             "c": 1421
+          },
+          {
+            "timeKey": "12:45",
+            "w": 2,
+            "c": 104
           }
         ],
         "id": 23
@@ -661,9 +713,107 @@
           }
         ],
         "id": 28
+      },
+      {
+        "date": "2026-05-04",
+        "filePath": "02 FÄCHER/MATHEMATIK/II/02 Ableitungsregeln.md",
+        "wordCountStart": 56,
+        "charCountStart": 480,
+        "changes": [
+          {
+            "timeKey": "12:25",
+            "w": 0,
+            "c": 4
+          }
+        ],
+        "id": 29
+      },
+      {
+        "date": "2026-05-04",
+        "filePath": "02 FÄCHER/MATHEMATIK/II/03 Differenzialquotienten log und e, Implizite Differenziation.md",
+        "wordCountStart": 53,
+        "charCountStart": 433,
+        "changes": [
+          {
+            "timeKey": "12:25",
+            "w": 0,
+            "c": 4
+          }
+        ],
+        "id": 30
+      },
+      {
+        "date": "2026-05-04",
+        "filePath": "00 CONFIG/00 TEMPLATES/EXTRACT_MATH.md",
+        "wordCountStart": 236,
+        "charCountStart": 2248,
+        "changes": [
+          {
+            "timeKey": "12:25",
+            "w": 7,
+            "c": -78
+          },
+          {
+            "timeKey": "12:30",
+            "w": -23,
+            "c": -115
+          },
+          {
+            "timeKey": "12:35",
+            "w": -1,
+            "c": 12
+          },
+          {
+            "timeKey": "12:40",
+            "w": -2,
+            "c": 69
+          },
+          {
+            "timeKey": "12:45",
+            "w": 30,
+            "c": 335
+          }
+        ],
+        "id": 31
+      },
+      {
+        "date": "2026-05-04",
+        "filePath": "02 FÄCHER/MATHEMATIK/II/07 Integralrechnung.md",
+        "wordCountStart": 380,
+        "charCountStart": 2152,
+        "changes": [
+          {
+            "timeKey": "12:40",
+            "w": 165,
+            "c": 1246
+          }
+        ],
+        "id": 32
+      },
+      {
+        "date": "2026-05-04",
+        "filePath": "02 FÄCHER/ELEKTRONIK/02 Grundlagen der Halbleiter.md",
+        "wordCountStart": 897,
+        "charCountStart": 7076,
+        "changes": [
+          {
+            "timeKey": "12:45",
+            "w": 34,
+            "c": 294
+          }
+        ],
+        "id": 33
+      },
+      {
+        "date": "2026-05-04",
+        "filePath": "02 FÄCHER/ELEKTRONIK/03 Die Diode als Bauelement.md",
+        "wordCountStart": 463,
+        "charCountStart": 3121,
+        "changes": [],
+        "id": 34
       }
     ],
-    "wholeVaultWordCount": 8253,
-    "wholeVaultCharCount": 61386
+    "wholeVaultWordCount": 8957,
+    "wholeVaultCharCount": 66160
   }
 }

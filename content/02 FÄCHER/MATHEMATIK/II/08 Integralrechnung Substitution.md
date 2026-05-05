@@ -1,6 +1,6 @@
 ---
 publish: true
-tags: [analysis, differential, integral]
+tags: [analysis, differenzial, integral]
 aliases: []
 ---
 
@@ -40,18 +40,16 @@ Die Substitution erlaubt die Anwendung der umgekehrten Kettenregel in manchen In
 
 # LaTeX Summary
 
-## [[#Umkehrung der Kettenregel]]
+## [[#Umkehrung der Kettenregel|Umkehrung der Kettenregel]]
 
 ```latex
 \frac{d}{dx}f(g(x))=f'(g(x))\cdot g'(x)
 
 \implies \int f'(g(x))\cdot g'(x)dx=f(g(x))+C
-
 ```
 
-## [[#Substitution]]
+## [[#Substitution|Substitution]]
 
 ```latex
 du=\frac{du}{dx}\cdot dx
-
 ```

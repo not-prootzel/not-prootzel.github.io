@@ -1,6 +1,6 @@
 ---
 publish: true
-tags: [analysis, ableitung, differential]
+tags: [analysis, ableitung, differenzial]
 aliases: []
 ---
 

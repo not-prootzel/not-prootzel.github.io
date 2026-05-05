@@ -37,6 +37,10 @@ for (let i = 0; i < lines.length; i++) {
         if (!isInsideMathBlock) { 
             isInsideMathBlock = true; 
             currentBlockBuffer = []; 
+            if(trimmed!="$$" && trimmed.endsWith('$$')) {
+	            isInsideMathBlock = false;
+	            currentBlockBuffer.push(rawLine.replace('$$',''));
+            }
         } else { 
             isInsideMathBlock = false; 
             
@@ -61,12 +65,12 @@ if (totalCount > 0) {
     for (const [label, blocks] of Object.entries(mathBlocks)) {
         // Link to the main heading, but show the Bold List Item text in the label
         const linkTarget = label.split(' ➔ ')[0];
-        summary += `\n## [[#${linkTarget}|${label}]]\n`;
-        summary += "```latex\n";
+        summary += `\n## [[#${linkTarget}|${label}]]\n\n`;
+        summary += "```latex";
         blocks.forEach(code => {
-            summary += code + "\n\n";
+            summary += "\n" + code + "\n";
         });
-        summary += "```\n";
+        summary += "```\n\n";
     }
 
     const lineCount = editor.lineCount();
