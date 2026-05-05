@@ -223,6 +223,7 @@ Google's Gemini hat mit dem Finden der Überschriften geholfen. Außerdem war es
 Alle Texte wurden von Menschen verfasst.
 
 ---
+
 # LaTeX Summary
 
 ## [[#Normierung|Normierung]]
@@ -231,13 +232,11 @@ Alle Texte wurden von Menschen verfasst.
 \int_{-\infty}^\infty f(x)dx=1
 ```
 
-
 ## [[#Wahrscheinlichkeit|Wahrscheinlichkeit]]
 
 ```latex
 P_{a\leq x\leq b}=\int_{a}^b f(x)dx
 ```
-
 
 ## [[#Erwartungswert|Erwartungswert]]
 
@@ -245,20 +244,17 @@ P_{a\leq x\leq b}=\int_{a}^b f(x)dx
 \mu=P_{1}\cdot x_{1}+P_{2}\cdot x_{2}+\dots +P_{n}\cdot x_{n}=\sum_{k=1}^n P_{k}\cdot x_{k}
 ```
 
-
 ## [[#Varianz|Varianz]]
 
 ```latex
 \sigma^2=\int_{-\infty}^\infty (x-\mu)^2f(x)dx
 ```
 
-
 ## [[#Standardabweichung|Standardabweichung]]
 
 ```latex
 \sigma=\sqrt{ \sigma^2 }=\sqrt{ \int_{-\infty}^\infty (x-\mu)^2f(x)dx }
 ```
-
 
 ## [[#Normalverteilung (Gaußverteilung)|Normalverteilung (Gaußverteilung)]]
 
@@ -270,7 +266,6 @@ P_{a\leq x\leq b}=\int_{a}^b f(x)dx
 p_{\sigma}=68,3\%&\quad p_{2\sigma}=95,45\%&\quad p_{3\sigma}=99,73\%
 \end{array}
 ```
-
 
 ## [[#Gleichverteilung|Gleichverteilung]]
 
@@ -284,7 +279,6 @@ f(x) \begin{cases} \frac{1}{b-a} & \text{ f\"ur } a\leq x\leq b \\ 0 & \text{son
 
 p_{\sigma}=57,54\%
 ```
-
 
 ## [[#Unsicherheit Typ A|Unsicherheit Typ A]]
 
@@ -300,7 +294,6 @@ s=\sqrt{ \frac{1}{n-1}\sum^n_{k=1}(x_{k}-\overline{x})^2 }
 	\end{array}
 ```
 
-
 ## [[#Bestimmung Angabe von Messergebnissen|Bestimmung Angabe von Messergebnissen ➔ Angabe]]
 
 ```latex
@@ -311,7 +304,6 @@ U=(5,01\pm 0,12)V
 \Delta x_{rel}=\frac{\Delta x}{x}
 ```
 
-
 ## [[#Fortpflanzung von Unsicherheiten (nach Gauß)|Fortpflanzung von Unsicherheiten (nach Gauß)]]
 
 ```latex
@@ -319,7 +311,6 @@ y=f(x_{1},x_{2},\dots,x_{m})
 
 \Delta y=\sqrt{ \sum^m_{k=1} \left( \partial \frac{f}{\partial x_{k}}\Delta x_{k} \right)^2 }
 ```
-
 
 ## [[#Summen und Differenzen|Summen und Differenzen]]
 
@@ -329,7 +320,6 @@ y=f(x_{1},x_{2},\dots,x_{m})
 \Delta y=\sqrt{ \sum_{k=1}^m (\Delta x_{k})^2 }
 ```
 
-
 ## [[#Produkte und Quotienten|Produkte und Quotienten]]
 
 ```latex
@@ -337,4 +327,3 @@ y=f(x_{1},x_{2},\dots,x_{m})
 
 \frac{\Delta y}{y}=\sqrt{ \sum^m_{k=1}\left( \frac{\Delta x_{k}}{x_{k}} \right)^2 }
 ```
-

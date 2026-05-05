@@ -32,13 +32,14 @@ Die meisten (idealen) Wechselspannungsbzw. Wechselstromqueellen sind harmonische
 
 # Kenngrößen
 
-| Zeichen                       | Name                    | Bedeutung                                                              | Formel                                       |
-| ----------------------------- | ----------------------- | ---------------------------------------------------------------------- | -------------------------------------------- |
-| $$T$$                         | Periodendauer           | Die Dauer einer [[#Periodische Signale\|Periode]]                      | $$T=\frac{1}{f}$$                            |
-| $$f$$                         | Frequenz                | Die Anzahl an Perioden <br>in einer Sekunde                            | $$f=\frac{1}{T}$$                            |
-| $$\omega$$                    | Kreisfrequenz           | Der überstrichene <br>Phasenwinkel                                     | $$\omega=\frac{T}{2\pi}=2\pi f$$             |
-| $$\phi_{u}$$                  | Anfangsphase            | Die Verschiebung eines<br>periodischen Signales<br>entlang der x-Achse | $\phi_{u}>0$ =><br>nach rechts<br>verschoben |
-| $$\hat{U}, \hat{I}, \hat{x}$$ | Amplitude von $U, I, x$ | Die Ausschwingung <br>eines Signals;<br>"Abstand zur x-Achse"          | $$\max(\|U\|)$$                              |
+| Zeichen                                                          | Name                             | Bedeutung                                                              | Formel                                       |
+| ---------------------------------------------------------------- | -------------------------------- | ---------------------------------------------------------------------- | -------------------------------------------- |
+| $$T$$                                                            | Periodendauer                    | Die Dauer einer [[#Periodische Signale\|Periode]]                      | $$T=\frac{1}{f}$$                            |
+| $$f$$                                                            | Frequenz                         | Die Anzahl an Perioden <br>in einer Sekunde                            | $$f=\frac{1}{T}$$                            |
+| $$\omega$$                                                       | Kreisfrequenz                    | Der überstrichene <br>Phasenwinkel                                     | $$\omega=\frac{T}{2\pi}=2\pi f$$             |
+| $$\phi_{u}$$                                                     | Anfangsphase                     | Die Verschiebung eines<br>periodischen Signales<br>entlang der x-Achse | $\phi_{u}>0$ =><br>nach rechts<br>verschoben |
+| $$\hat{u}, \hat{\imath}, \hat{x}$$<br>auch $U_{0}, I_{0}, X_{0}$ | Amplitude von $u, i, x$          | Die Ausschwingung <br>eines Signals;<br>"Abstand zur x-Achse"          | $$\max{ (\left\vert U \right\vert) }$$       |
+| $u_{ss}, i_{ss}, x_{ss}$                                         | Spitze-Spitze-Wert von $u, i, x$ |                                                                        |                                              |
 
 **Definition und Periodizität:** Periodendauer (T), Frequenz (f) und Kreisfrequenz (ω).
 

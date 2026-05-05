@@ -997,12 +997,177 @@
             "timeKey": "10:40",
             "w": 27,
             "c": 261
+          },
+          {
+            "timeKey": "11:30",
+            "w": 0,
+            "c": 0
           }
         ],
         "id": 36
+      },
+      {
+        "date": "2026-05-05",
+        "filePath": "02 FÄCHER/MESSTECHNIK/I/02 Unbekannte Messabweichungen.md",
+        "wordCountStart": 263,
+        "charCountStart": 2082,
+        "changes": [
+          {
+            "timeKey": "11:30",
+            "w": 23,
+            "c": 147
+          },
+          {
+            "timeKey": "11:35",
+            "w": -14,
+            "c": -66
+          },
+          {
+            "timeKey": "11:40",
+            "w": 38,
+            "c": 239
+          },
+          {
+            "timeKey": "11:45",
+            "w": 19,
+            "c": 96
+          },
+          {
+            "timeKey": "11:50",
+            "w": 39,
+            "c": 271
+          },
+          {
+            "timeKey": "11:55",
+            "w": 47,
+            "c": 410
+          },
+          {
+            "timeKey": "12:00",
+            "w": 50,
+            "c": 368
+          },
+          {
+            "timeKey": "12:05",
+            "w": 99,
+            "c": 609
+          },
+          {
+            "timeKey": "12:10",
+            "w": 88,
+            "c": 676
+          },
+          {
+            "timeKey": "12:15",
+            "w": 42,
+            "c": 317
+          },
+          {
+            "timeKey": "12:20",
+            "w": 12,
+            "c": 91
+          },
+          {
+            "timeKey": "12:25",
+            "w": 57,
+            "c": 381
+          },
+          {
+            "timeKey": "12:30",
+            "w": 104,
+            "c": 514
+          },
+          {
+            "timeKey": "12:35",
+            "w": 158,
+            "c": 1023
+          },
+          {
+            "timeKey": "12:40",
+            "w": 420,
+            "c": 2480
+          },
+          {
+            "timeKey": "12:50",
+            "w": 0,
+            "c": 0
+          }
+        ],
+        "id": 37
+      },
+      {
+        "date": "2026-05-05",
+        "filePath": "00 CONFIG/01 SNIPPETS/quellen.md",
+        "wordCountStart": 2,
+        "charCountStart": 20,
+        "changes": [
+          {
+            "timeKey": "12:35",
+            "w": 0,
+            "c": 6
+          }
+        ],
+        "id": 38
+      },
+      {
+        "date": "2026-05-05",
+        "filePath": "02 FÄCHER/MESSTECHNIK/I/03 Erweiterte Messunsicherheit, Strom- und Spannungsmessung.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "12:50",
+            "w": 9,
+            "c": 96
+          }
+        ],
+        "id": 39
+      },
+      {
+        "date": "2026-05-05",
+        "filePath": "02 FÄCHER/ELEKTROTECHNIK/II/Fourier.md",
+        "wordCountStart": 101,
+        "charCountStart": 782,
+        "changes": [
+          {
+            "timeKey": "14:25",
+            "w": 25,
+            "c": 175
+          }
+        ],
+        "id": 40
+      },
+      {
+        "date": "2026-05-05",
+        "filePath": "02 FÄCHER/ELEKTROTECHNIK/II/Zeitveränderliche elektrische Signale.md",
+        "wordCountStart": 265,
+        "charCountStart": 2800,
+        "changes": [
+          {
+            "timeKey": "14:30",
+            "w": 0,
+            "c": 0
+          },
+          {
+            "timeKey": "14:35",
+            "w": 1,
+            "c": 0
+          },
+          {
+            "timeKey": "14:40",
+            "w": 14,
+            "c": 461
+          },
+          {
+            "timeKey": "14:45",
+            "w": 5,
+            "c": 72
+          }
+        ],
+        "id": 41
       }
     ],
-    "wholeVaultWordCount": 10004,
-    "wholeVaultCharCount": 73166
+    "wholeVaultWordCount": 11240,
+    "wholeVaultCharCount": 81532
   }
 }
