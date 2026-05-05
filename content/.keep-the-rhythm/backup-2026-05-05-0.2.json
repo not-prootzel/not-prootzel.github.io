@@ -1,0 +1,1008 @@
+{
+  "schema": "0.2",
+  "settings": {
+    "enabledLanguages": [
+      "LATIN"
+    ],
+    "dailyWritingGoal": "500",
+    "startOfTheWeek": "SUNDAY",
+    "heatmapNavigation": true,
+    "heatmapConfig": {
+      "roundCells": true,
+      "hideMonthLabels": false,
+      "hideWeekdayLabels": false,
+      "intensityMode": "gradual",
+      "intensityStops": {
+        "low": 100,
+        "medium": 500,
+        "high": 1000
+      },
+      "colors": {
+        "light": {
+          "0": "#e0e0e0",
+          "1": "#9be9a8",
+          "2": "#6ad286",
+          "3": "#2ebd54",
+          "4": "#14dbc4"
+        },
+        "dark": {
+          "0": "#ebedf015",
+          "1": "#0e4429",
+          "2": "#006d32",
+          "3": "#26a641",
+          "4": "#10d7da"
+        }
+      }
+    },
+    "sidebarConfig": {
+      "visibility": {
+        "showSlots": true,
+        "showEntries": true,
+        "showHeatmap": true
+      },
+      "slots": [
+        {
+          "index": 0,
+          "option": "CURRENT_DAY",
+          "unit": "WORD",
+          "calc": "TOTAL"
+        },
+        {
+          "index": 1,
+          "option": "CURRENT_WEEK",
+          "unit": "WORD",
+          "calc": "TOTAL"
+        },
+        {
+          "index": 2,
+          "option": "LAST_WEEK",
+          "unit": "WORD",
+          "calc": "AVG"
+        },
+        {
+          "index": 3,
+          "option": "WHOLE_VAULT",
+          "unit": "WORD",
+          "calc": "TOTAL"
+        }
+      ]
+    }
+  },
+  "stats": {
+    "currentStreak": 0,
+    "highestStreak": 0,
+    "highestStreakStartDate": "",
+    "highestStreakEndDate": "",
+    "daysWithCompletedGoal": [
+      "2026-04-29",
+      "2026-05-04",
+      "2026-05-05"
+    ],
+    "dailyActivity": [
+      {
+        "date": "2026-04-29",
+        "filePath": "HOME.md",
+        "wordCountStart": 2,
+        "charCountStart": 23,
+        "changes": [
+          {
+            "timeKey": "12:00",
+            "w": 5,
+            "c": 49
+          }
+        ],
+        "id": 1
+      },
+      {
+        "date": "2026-04-29",
+        "filePath": "02 FÄCHER/ELEKTRONIK/03 Die Diode als Bauelement.md",
+        "wordCountStart": 85,
+        "charCountStart": 616,
+        "changes": [
+          {
+            "timeKey": "12:00",
+            "w": 28,
+            "c": 227
+          },
+          {
+            "timeKey": "12:05",
+            "w": 76,
+            "c": 490
+          },
+          {
+            "timeKey": "12:10",
+            "w": 37,
+            "c": 233
+          },
+          {
+            "timeKey": "12:15",
+            "w": 60,
+            "c": 343
+          },
+          {
+            "timeKey": "12:20",
+            "w": 24,
+            "c": 182
+          },
+          {
+            "timeKey": "12:25",
+            "w": 79,
+            "c": 566
+          },
+          {
+            "timeKey": "12:30",
+            "w": 40,
+            "c": 308
+          },
+          {
+            "timeKey": "12:35",
+            "w": 42,
+            "c": 184
+          }
+        ],
+        "id": 2
+      },
+      {
+        "date": "2026-04-29",
+        "filePath": "02 FÄCHER/MATHEMATIK/II/07 Integralrechnung.md",
+        "wordCountStart": 382,
+        "charCountStart": 2161,
+        "changes": [
+          {
+            "timeKey": "19:50",
+            "w": -2,
+            "c": -9
+          }
+        ],
+        "id": 3
+      },
+      {
+        "date": "2026-04-29",
+        "filePath": "02 FÄCHER/MATHEMATIK/II/08 Integralrechnung Substitution.md",
+        "wordCountStart": 115,
+        "charCountStart": 771,
+        "changes": [],
+        "id": 4
+      },
+      {
+        "date": "2026-04-29",
+        "filePath": "02 FÄCHER/MESSTECHNIK/I/01 Einführung, Messabweichungen.md",
+        "wordCountStart": 359,
+        "charCountStart": 4762,
+        "changes": [
+          {
+            "timeKey": "13:10",
+            "w": 67,
+            "c": 452
+          },
+          {
+            "timeKey": "13:15",
+            "w": 44,
+            "c": 271
+          },
+          {
+            "timeKey": "19:15",
+            "w": 34,
+            "c": 268
+          },
+          {
+            "timeKey": "19:25",
+            "w": 29,
+            "c": 250
+          },
+          {
+            "timeKey": "19:30",
+            "w": 0,
+            "c": 3
+          },
+          {
+            "timeKey": "19:40",
+            "w": 4,
+            "c": 26
+          },
+          {
+            "timeKey": "19:45",
+            "w": 0,
+            "c": 1
+          },
+          {
+            "timeKey": "19:50",
+            "w": 23,
+            "c": 197
+          },
+          {
+            "timeKey": "20:00",
+            "w": 0,
+            "c": 1
+          }
+        ],
+        "id": 5
+      },
+      {
+        "date": "2026-04-29",
+        "filePath": "02 FÄCHER/MATHEMATIK/II/04 Kurven in Parameterform, Polarkoordinaten, Tangenten und Normalen.md",
+        "wordCountStart": 116,
+        "charCountStart": 770,
+        "changes": [],
+        "id": 6
+      },
+      {
+        "date": "2026-04-29",
+        "filePath": "02 FÄCHER/MATHEMATIK/II/05 Höhere Ableitungen, Extrema und Sattelpunkte, Optimierung.md",
+        "wordCountStart": 210,
+        "charCountStart": 1434,
+        "changes": [],
+        "id": 7
+      },
+      {
+        "date": "2026-04-29",
+        "filePath": "02 FÄCHER/MATHEMATIK/II/06 Linearisierung von Funktionen, Regel von L’Hospital.md",
+        "wordCountStart": 563,
+        "charCountStart": 3600,
+        "changes": [],
+        "id": 8
+      },
+      {
+        "date": "2026-04-30",
+        "filePath": "02 FÄCHER/MATHEMATIK/II/08 Integralrechnung Substitution.md",
+        "wordCountStart": 115,
+        "charCountStart": 771,
+        "changes": [
+          {
+            "timeKey": "09:40",
+            "w": 39,
+            "c": 409
+          },
+          {
+            "timeKey": "09:45",
+            "w": 62,
+            "c": 587
+          },
+          {
+            "timeKey": "09:50",
+            "w": 43,
+            "c": 291
+          },
+          {
+            "timeKey": "10:40",
+            "w": -145,
+            "c": -1292
+          }
+        ],
+        "id": 9
+      },
+      {
+        "date": "2026-04-30",
+        "filePath": "02 FÄCHER/MATHEMATIK/MATHEMATIK.md",
+        "wordCountStart": 6,
+        "charCountStart": 44,
+        "changes": [],
+        "id": 10
+      },
+      {
+        "date": "2026-04-30",
+        "filePath": "02 FÄCHER/MESSTECHNIK/I/01 Einführung, Messabweichungen.md",
+        "wordCountStart": 560,
+        "charCountStart": 6231,
+        "changes": [
+          {
+            "timeKey": "10:40",
+            "w": 1,
+            "c": 13
+          },
+          {
+            "timeKey": "10:45",
+            "w": 19,
+            "c": 137
+          }
+        ],
+        "id": 11
+      },
+      {
+        "date": "2026-04-30",
+        "filePath": "02 FÄCHER/MESSTECHNIK/I/02 Unbekannte Messabweichungen.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "10:45",
+            "w": 9,
+            "c": 63
+          },
+          {
+            "timeKey": "10:50",
+            "w": 72,
+            "c": 638
+          },
+          {
+            "timeKey": "10:55",
+            "w": 95,
+            "c": 748
+          },
+          {
+            "timeKey": "11:00",
+            "w": 44,
+            "c": 319
+          },
+          {
+            "timeKey": "11:05",
+            "w": 43,
+            "c": 301
+          }
+        ],
+        "id": 12
+      },
+      {
+        "date": "2026-05-04",
+        "filePath": "02 FÄCHER/MESSTECHNIK/I/02 Unbekannte Messabweichungen.md",
+        "wordCountStart": 263,
+        "charCountStart": 2069,
+        "changes": [
+          {
+            "timeKey": "08:00",
+            "w": 0,
+            "c": -1
+          },
+          {
+            "timeKey": "08:05",
+            "w": 0,
+            "c": 0
+          },
+          {
+            "timeKey": "13:10",
+            "w": 0,
+            "c": 16
+          }
+        ],
+        "id": 13
+      },
+      {
+        "date": "2026-05-04",
+        "filePath": "02 FÄCHER/MESSTECHNIK/I/01 Einführung, Messabweichungen.md",
+        "wordCountStart": 580,
+        "charCountStart": 6381,
+        "changes": [
+          {
+            "timeKey": "12:50",
+            "w": 217,
+            "c": 1658
+          },
+          {
+            "timeKey": "12:55",
+            "w": -89,
+            "c": -859
+          },
+          {
+            "timeKey": "13:10",
+            "w": 0,
+            "c": 16
+          }
+        ],
+        "id": 14
+      },
+      {
+        "date": "2026-05-04",
+        "filePath": "02 FÄCHER/MATHEMATIK/MATHEMATIK.md",
+        "wordCountStart": 6,
+        "charCountStart": 44,
+        "changes": [],
+        "id": 15
+      },
+      {
+        "date": "2026-05-04",
+        "filePath": "02 FÄCHER/MATHEMATIK/II/01 Differenzialquotient.md",
+        "wordCountStart": 466,
+        "charCountStart": 2623,
+        "changes": [
+          {
+            "timeKey": "12:25",
+            "w": 0,
+            "c": 10
+          },
+          {
+            "timeKey": "13:10",
+            "w": 0,
+            "c": 8
+          }
+        ],
+        "id": 16
+      },
+      {
+        "date": "2026-05-04",
+        "filePath": "02 FÄCHER/MATHEMATIK/II/09 Integration mithilfe der Partialbruchzerlegung.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "08:05",
+            "w": 52,
+            "c": 333
+          },
+          {
+            "timeKey": "08:10",
+            "w": 97,
+            "c": 791
+          },
+          {
+            "timeKey": "08:15",
+            "w": 59,
+            "c": 393
+          },
+          {
+            "timeKey": "08:20",
+            "w": 43,
+            "c": 218
+          },
+          {
+            "timeKey": "08:25",
+            "w": 45,
+            "c": 241
+          },
+          {
+            "timeKey": "08:30",
+            "w": 7,
+            "c": 53
+          },
+          {
+            "timeKey": "08:35",
+            "w": 33,
+            "c": 258
+          },
+          {
+            "timeKey": "08:40",
+            "w": 8,
+            "c": 44
+          },
+          {
+            "timeKey": "08:45",
+            "w": 46,
+            "c": 330
+          },
+          {
+            "timeKey": "08:50",
+            "w": 80,
+            "c": 656
+          },
+          {
+            "timeKey": "08:55",
+            "w": 51,
+            "c": 286
+          },
+          {
+            "timeKey": "09:00",
+            "w": 33,
+            "c": 196
+          },
+          {
+            "timeKey": "09:15",
+            "w": 16,
+            "c": 98
+          },
+          {
+            "timeKey": "09:20",
+            "w": 71,
+            "c": 389
+          },
+          {
+            "timeKey": "09:25",
+            "w": 0,
+            "c": 3
+          },
+          {
+            "timeKey": "09:30",
+            "w": 52,
+            "c": 605
+          },
+          {
+            "timeKey": "09:40",
+            "w": 0,
+            "c": 0
+          },
+          {
+            "timeKey": "09:45",
+            "w": 0,
+            "c": 48
+          },
+          {
+            "timeKey": "10:10",
+            "w": 0,
+            "c": 0
+          },
+          {
+            "timeKey": "11:00",
+            "w": 0,
+            "c": 0
+          },
+          {
+            "timeKey": "12:40",
+            "w": 324,
+            "c": 1543
+          },
+          {
+            "timeKey": "12:45",
+            "w": 72,
+            "c": 835
+          },
+          {
+            "timeKey": "12:50",
+            "w": 0,
+            "c": 0
+          },
+          {
+            "timeKey": "13:10",
+            "w": 1,
+            "c": 13
+          }
+        ],
+        "id": 17
+      },
+      {
+        "date": "2026-05-04",
+        "filePath": "02 FÄCHER/MATHEMATIK/II/08 Integralrechnung Substitution.md",
+        "wordCountStart": 114,
+        "charCountStart": 764,
+        "changes": [
+          {
+            "timeKey": "09:35",
+            "w": 0,
+            "c": 0
+          },
+          {
+            "timeKey": "12:40",
+            "w": 44,
+            "c": 233
+          },
+          {
+            "timeKey": "13:10",
+            "w": 4,
+            "c": 37
+          }
+        ],
+        "id": 18
+      },
+      {
+        "date": "2026-05-04",
+        "filePath": "02 FÄCHER/MATHEMATIK/II/06 Linearisierung von Funktionen, Regel von L’Hospital.md",
+        "wordCountStart": 563,
+        "charCountStart": 3600,
+        "changes": [],
+        "id": 19
+      },
+      {
+        "date": "2026-05-04",
+        "filePath": "02 FÄCHER/MATHEMATIK/II/05 Höhere Ableitungen, Extrema und Sattelpunkte, Optimierung.md",
+        "wordCountStart": 210,
+        "charCountStart": 1434,
+        "changes": [
+          {
+            "timeKey": "12:40",
+            "w": 51,
+            "c": 277
+          }
+        ],
+        "id": 20
+      },
+      {
+        "date": "2026-05-04",
+        "filePath": "02 FÄCHER/MATHEMATIK/II/04 Kurven in Parameterform, Polarkoordinaten, Tangenten und Normalen.md",
+        "wordCountStart": 116,
+        "charCountStart": 770,
+        "changes": [
+          {
+            "timeKey": "09:35",
+            "w": 0,
+            "c": 0
+          },
+          {
+            "timeKey": "12:25",
+            "w": -18,
+            "c": -89
+          },
+          {
+            "timeKey": "12:30",
+            "w": -13,
+            "c": -69
+          },
+          {
+            "timeKey": "12:35",
+            "w": 0,
+            "c": 1
+          },
+          {
+            "timeKey": "12:40",
+            "w": 32,
+            "c": 158
+          }
+        ],
+        "id": 21
+      },
+      {
+        "date": "2026-05-04",
+        "filePath": "02 FÄCHER/INFORMATIK/INFORMATIK.md",
+        "wordCountStart": 4,
+        "charCountStart": 38,
+        "changes": [],
+        "id": 22
+      },
+      {
+        "date": "2026-05-04",
+        "filePath": "02 FÄCHER/PHYSIK/II/01 Freie ungedämpfte Schwingungen.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "11:00",
+            "w": 56,
+            "c": 443
+          },
+          {
+            "timeKey": "11:05",
+            "w": 58,
+            "c": 385
+          },
+          {
+            "timeKey": "11:10",
+            "w": 26,
+            "c": 166
+          },
+          {
+            "timeKey": "11:15",
+            "w": 28,
+            "c": 205
+          },
+          {
+            "timeKey": "11:20",
+            "w": 46,
+            "c": 248
+          },
+          {
+            "timeKey": "11:25",
+            "w": 39,
+            "c": 260
+          },
+          {
+            "timeKey": "11:30",
+            "w": 35,
+            "c": 223
+          },
+          {
+            "timeKey": "11:35",
+            "w": 51,
+            "c": 298
+          },
+          {
+            "timeKey": "11:40",
+            "w": 51,
+            "c": 341
+          },
+          {
+            "timeKey": "11:45",
+            "w": 63,
+            "c": 400
+          },
+          {
+            "timeKey": "11:50",
+            "w": 180,
+            "c": 1193
+          },
+          {
+            "timeKey": "12:05",
+            "w": -74,
+            "c": -433
+          },
+          {
+            "timeKey": "12:10",
+            "w": 0,
+            "c": 0
+          },
+          {
+            "timeKey": "12:15",
+            "w": 263,
+            "c": 1421
+          },
+          {
+            "timeKey": "12:45",
+            "w": 2,
+            "c": 104
+          },
+          {
+            "timeKey": "13:10",
+            "w": 0,
+            "c": 18
+          },
+          {
+            "timeKey": "13:15",
+            "w": 3,
+            "c": 43
+          }
+        ],
+        "id": 23
+      },
+      {
+        "date": "2026-05-04",
+        "filePath": "00 CONFIG/00 TEMPLATES/ZOTERO_CITATION.md",
+        "wordCountStart": 1,
+        "charCountStart": 11,
+        "changes": [],
+        "id": 25
+      },
+      {
+        "date": "2026-05-04",
+        "filePath": "00 CONFIG/00 TEMPLATES/T_COURSE.md",
+        "wordCountStart": 4,
+        "charCountStart": 38,
+        "changes": [],
+        "id": 26
+      },
+      {
+        "date": "2026-05-04",
+        "filePath": "index.md",
+        "wordCountStart": 3,
+        "charCountStart": 33,
+        "changes": [],
+        "id": 27
+      },
+      {
+        "date": "2026-05-04",
+        "filePath": "02 FÄCHER/PHYSIK/II/02 Gedämpfte Schwingungen, erzwungene Schwingungen.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "12:15",
+            "w": 16,
+            "c": 136
+          },
+          {
+            "timeKey": "12:20",
+            "w": 47,
+            "c": 345
+          },
+          {
+            "timeKey": "12:25",
+            "w": 0,
+            "c": -1
+          },
+          {
+            "timeKey": "13:15",
+            "w": 2,
+            "c": 38
+          }
+        ],
+        "id": 28
+      },
+      {
+        "date": "2026-05-04",
+        "filePath": "02 FÄCHER/MATHEMATIK/II/02 Ableitungsregeln.md",
+        "wordCountStart": 56,
+        "charCountStart": 480,
+        "changes": [
+          {
+            "timeKey": "12:25",
+            "w": 0,
+            "c": 4
+          }
+        ],
+        "id": 29
+      },
+      {
+        "date": "2026-05-04",
+        "filePath": "02 FÄCHER/MATHEMATIK/II/03 Differenzialquotienten log und e, Implizite Differenziation.md",
+        "wordCountStart": 53,
+        "charCountStart": 433,
+        "changes": [
+          {
+            "timeKey": "12:25",
+            "w": 0,
+            "c": 4
+          }
+        ],
+        "id": 30
+      },
+      {
+        "date": "2026-05-04",
+        "filePath": "00 CONFIG/00 TEMPLATES/EXTRACT_MATH.md",
+        "wordCountStart": 236,
+        "charCountStart": 2248,
+        "changes": [
+          {
+            "timeKey": "12:25",
+            "w": 7,
+            "c": -78
+          },
+          {
+            "timeKey": "12:30",
+            "w": -23,
+            "c": -115
+          },
+          {
+            "timeKey": "12:35",
+            "w": -1,
+            "c": 12
+          },
+          {
+            "timeKey": "12:40",
+            "w": -2,
+            "c": 69
+          },
+          {
+            "timeKey": "12:45",
+            "w": 30,
+            "c": 335
+          },
+          {
+            "timeKey": "13:05",
+            "w": 10,
+            "c": 176
+          },
+          {
+            "timeKey": "13:10",
+            "w": 1,
+            "c": 7
+          }
+        ],
+        "id": 31
+      },
+      {
+        "date": "2026-05-04",
+        "filePath": "02 FÄCHER/MATHEMATIK/II/07 Integralrechnung.md",
+        "wordCountStart": 380,
+        "charCountStart": 2152,
+        "changes": [
+          {
+            "timeKey": "12:40",
+            "w": 165,
+            "c": 1246
+          },
+          {
+            "timeKey": "13:05",
+            "w": 80,
+            "c": 1
+          },
+          {
+            "timeKey": "13:10",
+            "w": 0,
+            "c": 3
+          }
+        ],
+        "id": 32
+      },
+      {
+        "date": "2026-05-04",
+        "filePath": "02 FÄCHER/ELEKTRONIK/02 Grundlagen der Halbleiter.md",
+        "wordCountStart": 897,
+        "charCountStart": 7076,
+        "changes": [
+          {
+            "timeKey": "12:45",
+            "w": 34,
+            "c": 294
+          }
+        ],
+        "id": 33
+      },
+      {
+        "date": "2026-05-04",
+        "filePath": "02 FÄCHER/ELEKTRONIK/03 Die Diode als Bauelement.md",
+        "wordCountStart": 463,
+        "charCountStart": 3121,
+        "changes": [],
+        "id": 34
+      },
+      {
+        "date": "2026-05-05",
+        "filePath": "02 FÄCHER/PHYSIK/II/02 Gedämpfte Schwingungen, erzwungene Schwingungen.md",
+        "wordCountStart": 65,
+        "charCountStart": 518,
+        "changes": [],
+        "id": 35
+      },
+      {
+        "date": "2026-05-05",
+        "filePath": "02 FÄCHER/ELEKTRONIK/03 Die Diode als Bauelement.md",
+        "wordCountStart": 463,
+        "charCountStart": 3121,
+        "changes": [
+          {
+            "timeKey": "09:00",
+            "w": 7,
+            "c": 48
+          },
+          {
+            "timeKey": "09:05",
+            "w": 30,
+            "c": 245
+          },
+          {
+            "timeKey": "09:10",
+            "w": 22,
+            "c": 168
+          },
+          {
+            "timeKey": "09:15",
+            "w": 88,
+            "c": 494
+          },
+          {
+            "timeKey": "09:20",
+            "w": 47,
+            "c": 377
+          },
+          {
+            "timeKey": "09:25",
+            "w": 23,
+            "c": 197
+          },
+          {
+            "timeKey": "09:30",
+            "w": 24,
+            "c": 235
+          },
+          {
+            "timeKey": "09:45",
+            "w": 37,
+            "c": 304
+          },
+          {
+            "timeKey": "09:50",
+            "w": 81,
+            "c": 549
+          },
+          {
+            "timeKey": "09:55",
+            "w": 76,
+            "c": 579
+          },
+          {
+            "timeKey": "10:00",
+            "w": 75,
+            "c": 595
+          },
+          {
+            "timeKey": "10:05",
+            "w": 66,
+            "c": 444
+          },
+          {
+            "timeKey": "10:10",
+            "w": 57,
+            "c": 281
+          },
+          {
+            "timeKey": "10:15",
+            "w": 75,
+            "c": 593
+          },
+          {
+            "timeKey": "10:20",
+            "w": 46,
+            "c": 248
+          },
+          {
+            "timeKey": "10:25",
+            "w": 0,
+            "c": 3
+          },
+          {
+            "timeKey": "10:30",
+            "w": -2,
+            "c": -13
+          },
+          {
+            "timeKey": "10:35",
+            "w": 39,
+            "c": 223
+          },
+          {
+            "timeKey": "10:40",
+            "w": 27,
+            "c": 261
+          }
+        ],
+        "id": 36
+      }
+    ],
+    "wholeVaultWordCount": 10004,
+    "wholeVaultCharCount": 73166
+  }
+}

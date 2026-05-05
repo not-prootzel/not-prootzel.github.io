@@ -246,4 +246,3 @@ $$
 - Abfall von 2 Diodenspannungen
   => höhere Verluste
 - größerer Schaltungsaufwand durch 3 zusätzliche Dioden
-
