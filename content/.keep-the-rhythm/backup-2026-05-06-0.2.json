@@ -1320,6 +1320,34 @@
           }
         ],
         "id": 46
+      },
+      {
+        "date": "2026-05-06",
+        "filePath": "02 FÄCHER/DIGITALTECHNIK/Grundlagen/Zeichenkodierung.md",
+        "wordCountStart": 1228,
+        "charCountStart": 14683,
+        "changes": [
+          {
+            "timeKey": "07:55",
+            "w": 0,
+            "c": 0
+          }
+        ],
+        "id": 47
+      },
+      {
+        "date": "2026-05-06",
+        "filePath": "02 FÄCHER/DIGITALTECHNIK/Wahrheitstabelle.md",
+        "wordCountStart": 78,
+        "charCountStart": 655,
+        "changes": [
+          {
+            "timeKey": "07:45",
+            "w": 0,
+            "c": 0
+          }
+        ],
+        "id": 48
       }
     ],
     "wholeVaultWordCount": 13010,
