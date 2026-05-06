@@ -63,7 +63,6 @@ export default (() => {
         <meta property="og:image:alt" content={description} />
 
         
-        <script defer src="https://cloud.umami.is/script.js" data-website-id="b0c44ba1-ce38-44c8-8699-70f608b1d87d"></script>
 
         {!usesCustomOgImage && (
           <>
