@@ -1,8 +1,6 @@
 ---
 publish: true
-tags:
-  - wellen
-  - schwingung
+tags: [wellen, schwingung]
 aliases: []
 ---
 
