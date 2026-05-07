@@ -34,8 +34,7 @@ h1, h2, h3, h4, h5, h6, li :has(>strong) {
 }
 
 
-table:has(tbody>tr>td>.katex),
-table:has(thead>tr>td>.katex) {
+table {
     width:90% !important;
 }
 
