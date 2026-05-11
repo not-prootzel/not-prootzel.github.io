@@ -26,7 +26,7 @@ $$
 
 dann liegt an $x_{0}$ ein:
 
-- **relatives Extremum wenn $n$ gerade
+- **relatives Extremum wenn $n$ gerade**
   $f^{(n)}(x_{0})<n \implies\text{relatives Maximum}$
   $f^{(n)}(x_{0})>n \implies\text{relatives Minimum}$
 - **Sattelpunkt wenn $n$ ungerade**

@@ -6,4 +6,3 @@ publish: false
 OPTIONS
 COLORING_MODE liquid
 ```
-

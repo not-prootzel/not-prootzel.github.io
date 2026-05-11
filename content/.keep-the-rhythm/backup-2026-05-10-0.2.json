@@ -1632,12 +1632,56 @@
             "timeKey": "09:00",
             "w": 0,
             "c": 1
+          },
+          {
+            "timeKey": "09:05",
+            "w": 0,
+            "c": 0
           }
         ],
         "id": 67
+      },
+      {
+        "date": "2026-05-07",
+        "filePath": "02 FÄCHER/MATHEMATIK/II/10 Uneigentliche Integrale.md",
+        "wordCountStart": 57,
+        "charCountStart": 376,
+        "changes": [
+          {
+            "timeKey": "09:30",
+            "w": 6,
+            "c": 43
+          },
+          {
+            "timeKey": "09:35",
+            "w": 53,
+            "c": 243
+          },
+          {
+            "timeKey": "09:40",
+            "w": 119,
+            "c": 690
+          },
+          {
+            "timeKey": "09:45",
+            "w": 34,
+            "c": 204
+          },
+          {
+            "timeKey": "10:55",
+            "w": 177,
+            "c": 991
+          },
+          {
+            "timeKey": "11:00",
+            "w": 27,
+            "c": 185
+          }
+        ],
+        "id": 68
       }
     ],
-    "wholeVaultWordCount": 14717,
-    "wholeVaultCharCount": 112329
+    "wholeVaultWordCount": 15137,
+    "wholeVaultCharCount": 114721
   }
 }

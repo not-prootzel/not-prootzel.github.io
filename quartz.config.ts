@@ -57,6 +57,12 @@ const config: QuartzConfig = {
   },
   plugins: {
     transformers: [
+      Plugin.Citations({
+        bibliographyFile:"./content/00 CONFIG/03 ZOTERO SOURCES/UniNotesSources.bib",
+        linkCitations:true,
+        csl:"apa",
+        suppressBibliography:false,
+      }),
       Plugin.FrontMatter(),
       Plugin.CreatedModifiedDate({
         priority: ["frontmatter", "git", "filesystem"],
