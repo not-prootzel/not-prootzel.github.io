@@ -151,7 +151,6 @@ $$
 
 ![[02 FÄCHER/MESSTECHNIK/I/attachments/03 Erweiterte Messunsicherheit, Strom- und Spannungsmessung/file-20260511101001944.png]]
 
-This is a cited text [@elek-1-laborhelfer-oktettregel-edelgaskonfiguration].
 
 ---
 # LaTeX Summary
@@ -215,4 +214,3 @@ U_{a}=U_{e}=0
 ```latex
 A=\frac{U_{a}}{U_{e}}=\frac{R_{F}}{R_{G}}
 ```
-

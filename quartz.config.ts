@@ -60,8 +60,8 @@ const config: QuartzConfig = {
       Plugin.Citations({
         bibliographyFile:"./content/00 CONFIG/03 ZOTERO SOURCES/UniNotesSources.bib",
         linkCitations:true,
-        csl:"apa",
-        suppressBibliography:false,
+        csl:"https://raw.githubusercontent.com/citation-style-language/styles/refs/heads/master/ieee.csl",
+        suppressBibliography:false
       }),
       Plugin.FrontMatter(),
       Plugin.CreatedModifiedDate({

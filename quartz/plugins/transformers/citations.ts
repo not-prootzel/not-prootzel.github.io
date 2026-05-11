@@ -30,9 +30,7 @@ export const Citations: QuartzTransformerPlugin<Partial<Options>> = (userOpts) =
       // thus, we optimistically assume there is indeed an appropriate
       // locale available and simply create the lang url-string
       let lang: string = "en-US"
-      if (ctx.cfg.configuration.locale !== "en-US") {
-        lang = `https://github.com/citation-style-language/styles/blob/master/die-bachelorarbeit-samac-et-al-in-text.csl`
-      }
+      
       // Add rehype-citation to the list of plugins
       plugins.push([
         rehypeCitation,

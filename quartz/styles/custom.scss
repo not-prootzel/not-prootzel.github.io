@@ -28,7 +28,7 @@ p, h1, h2, h3, h4, h5, h6, li, strong, table {
     margin-bottom: 0.4em;
 }
 
-h1, h2, h3, h4, h5, h6, li :has(>strong) {
+h1, h2, h3, h4, h5, h6, li :has(>strong), .csl-entry {
     font-family: 'Fira Code' !important;
     margin-top: 1em !important;
 }

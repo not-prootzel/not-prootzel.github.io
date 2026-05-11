@@ -77,7 +77,8 @@
       "2026-04-29",
       "2026-05-04",
       "2026-05-05",
-      "2026-05-06"
+      "2026-05-06",
+      "2026-05-11"
     ],
     "dailyActivity": [
       {
@@ -1749,9 +1750,133 @@
         "charCountStart": 3600,
         "changes": [],
         "id": 77
+      },
+      {
+        "date": "2026-05-11",
+        "filePath": "02 FÄCHER/MATHEMATIK/II/06 Linearisierung von Funktionen, Regel von L’Hospital.md",
+        "wordCountStart": 563,
+        "charCountStart": 3600,
+        "changes": [],
+        "id": 78
+      },
+      {
+        "date": "2026-05-11",
+        "filePath": "02 FÄCHER/MESSTECHNIK/I/03 Erweiterte Messunsicherheit, Strom- und Spannungsmessung.md",
+        "wordCountStart": 10,
+        "charCountStart": 97,
+        "changes": [
+          {
+            "timeKey": "09:20",
+            "w": 0,
+            "c": 1
+          },
+          {
+            "timeKey": "09:25",
+            "w": 32,
+            "c": 241
+          },
+          {
+            "timeKey": "09:30",
+            "w": 22,
+            "c": 132
+          },
+          {
+            "timeKey": "09:35",
+            "w": 66,
+            "c": 474
+          },
+          {
+            "timeKey": "09:40",
+            "w": 71,
+            "c": 421
+          },
+          {
+            "timeKey": "09:45",
+            "w": 122,
+            "c": 827
+          },
+          {
+            "timeKey": "09:50",
+            "w": 86,
+            "c": 1314
+          },
+          {
+            "timeKey": "09:55",
+            "w": 95,
+            "c": 837
+          },
+          {
+            "timeKey": "10:00",
+            "w": 23,
+            "c": 164
+          },
+          {
+            "timeKey": "10:05",
+            "w": 15,
+            "c": 152
+          },
+          {
+            "timeKey": "10:10",
+            "w": 44,
+            "c": 359
+          },
+          {
+            "timeKey": "10:15",
+            "w": 33,
+            "c": 253
+          },
+          {
+            "timeKey": "10:20",
+            "w": 25,
+            "c": 172
+          },
+          {
+            "timeKey": "10:25",
+            "w": 74,
+            "c": 648
+          },
+          {
+            "timeKey": "11:55",
+            "w": 150,
+            "c": 1008
+          },
+          {
+            "timeKey": "12:00",
+            "w": -1,
+            "c": -13
+          },
+          {
+            "timeKey": "12:05",
+            "w": 7,
+            "c": 76
+          }
+        ],
+        "id": 79
+      },
+      {
+        "date": "2026-05-11",
+        "filePath": "02 FÄCHER/MESSTECHNIK/I/02 Unbekannte Messabweichungen.md",
+        "wordCountStart": 1445,
+        "charCountStart": 9627,
+        "changes": [],
+        "id": 80
+      },
+      {
+        "date": "2026-05-11",
+        "filePath": "02 FÄCHER/MESSTECHNIK/I/04.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "11:55",
+            "w": 4,
+            "c": 38
+          }
+        ],
+        "id": 81
       }
     ],
-    "wholeVaultWordCount": 15137,
-    "wholeVaultCharCount": 114723
+    "wholeVaultWordCount": 16005,
+    "wholeVaultCharCount": 121827
   }
 }
