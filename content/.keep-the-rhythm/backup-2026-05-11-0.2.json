@@ -1849,6 +1849,21 @@
             "timeKey": "12:05",
             "w": 7,
             "c": 76
+          },
+          {
+            "timeKey": "12:20",
+            "w": 0,
+            "c": 0
+          },
+          {
+            "timeKey": "12:25",
+            "w": 2,
+            "c": 32
+          },
+          {
+            "timeKey": "12:30",
+            "w": -9,
+            "c": -110
           }
         ],
         "id": 79
@@ -1874,9 +1889,43 @@
           }
         ],
         "id": 81
+      },
+      {
+        "date": "2026-05-11",
+        "filePath": "test23.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "12:30",
+            "w": 2,
+            "c": 55
+          },
+          {
+            "timeKey": "12:40",
+            "w": 0,
+            "c": 0
+          },
+          {
+            "timeKey": "12:50",
+            "w": 13,
+            "c": 84
+          },
+          {
+            "timeKey": "12:55",
+            "w": -4,
+            "c": -82
+          },
+          {
+            "timeKey": "13:00",
+            "w": 10,
+            "c": 217
+          }
+        ],
+        "id": 82
       }
     ],
-    "wholeVaultWordCount": 16005,
-    "wholeVaultCharCount": 121827
+    "wholeVaultWordCount": 16019,
+    "wholeVaultCharCount": 122023
   }
 }
